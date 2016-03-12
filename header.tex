@@ -2,9 +2,28 @@
 \usepackage[a4paper, margin=1in]{geometry}
 \usepackage{authblk,fontspec,xeCJK,setspace,scrextend,ragged2e,}
 \usepackage[american]{babel}
+
 \usepackage[style=apa,backend=biber]{biblatex}
-\usepackage{csquotes}
 \DeclareLanguageMapping{american}{american-apa}
+
+\usepackage{csquotes}
+
+\usepackage{titlesec}
+
+\titleformat
+{\chapter}
+{\changefontsizes{16}\bfseries}
+{}
+{0pt}
+{}
+
+\titlespacing
+{\chapter}
+{0pt}
+{1em}
+{1.5em}
+
+
 \addbibresource{/home/gjie/work/2015-2016/4-2/SA105/coffee/sa105.thesis-kafei.bib}
 \setCJKmainfont{Adobe Kaiti Std R}
 \setmainfont{Charis SIL}
