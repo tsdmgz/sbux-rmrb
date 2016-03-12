@@ -5,7 +5,7 @@ all:
 	xelatex $(FILE).tex
 
 clean:
-	rm -f $(FILE).{aux,bbl,bcf,blg,log,run.xml}
+	rm -f *.{aux,bbl,bcf,blg,log,run.xml}
 
 clean-all:
-	rm -f $(FILE).{aux,bbl,bcf,blg,log,run.xml} $(FILE).pdf
+	rm -f *.{aux,bbl,bcf,blg,log,run.xml} $(FILE).pdf
