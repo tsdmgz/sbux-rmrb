@@ -8,7 +8,7 @@ paper:
 	true
 
 clean:
-	rm -f *.{aux,bbl,bcf,blg,log,run.xml}
+	rm -f *.{aux,bbl,bcf,blg,log,run.xml,out}
 
 clean-all:
-	rm -f *.{aux,bbl,bcf,blg,log,run.xml} $(FILE).pdf
+	rm -f *.{aux,bbl,bcf,blg,log,run.xml,out} $(FILE).pdf
