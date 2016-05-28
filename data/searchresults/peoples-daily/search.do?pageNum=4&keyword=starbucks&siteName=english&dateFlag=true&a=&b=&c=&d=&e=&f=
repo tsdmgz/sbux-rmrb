@@ -1,0 +1,311 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="utf-8" />
+<meta name="robots" content="all" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="filetype" content="1" />
+<meta name="publishedtype" content="1" />
+<meta name="pagetype" content="2" />
+<meta name="catalogs" content="F_202936" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script src="http://english.people.com.cn/img/2011english/jquery-1.7.1.min.js" type="text/javascript" ></script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+               $(document).keydown(function(e){
+              		var oC = $("#keyword").val();
+					 	var event = window.event||e;
+					 	var pressKey = event.keyCode;
+					 	if(pressKey == 13){
+					 		if (oC=="")
+					 			emptyPrompt('english');
+					   	else 
+					   		createParameter('/language/search.do','english');
+					   }
+	    })
+	  })
+	</script>
+
+<script type="text/javascript" src="../js/language.js"></script>
+<link href="css/page.css" type="text/css" rel="stylesheet" media="all" />
+<title>Search--English--People's Daily Online</title>
+</head>
+<body>
+<!--nav-->
+<div class="header clear">
+  	<!--head-->
+    <div class="w980 clear">
+    	<div class="head_1 fl"><a href="http://english.people.com.cn/" target="_blank"><img src="images/logo.png" /></a></div>
+          <form action="/language/search.do" name="searchForm" method="post">
+ 
+ <div class="s0304 fl">
+	<div class="fl">
+    	<h1>From:</h1>
+    	<div class="searchBar">
+      	<SELECT id="a" name="a">
+					  <option value=></option>
+				  <option value=01>01</option>
+              <option value=02>02</option>
+              <option value=03>03</option>
+              <option value=04>04</option>
+              <option value=05>05</option>
+              <option value=06>06</option>
+              <option value=07>07</option>
+              <option value=08>08</option>
+              <option value=09>09</option>
+              <option value=10>10</option>
+              <option value=11>11</option>
+              <option value=12>12</option>
+              <option value=13>13</option>
+              <option value=14>14</option>
+              <option value=15>15</option>
+              <option value=16>16</option>
+              <option value=17>17</option>
+              <option value=18>18</option>
+              <option value=19>19</option>
+              <option value=20>20</option>
+              <option value=21>21</option>
+              <option value=22>22</option>
+              <option value=23>23</option>
+              <option value=24>24</option>
+              <option value=25>25</option>
+              <option value=26>26</option>
+              <option value=27>27</option>
+              <option value=28>28</option>
+              <option value=29>29</option>
+              <option value=30>30</option>
+              <option value=31>31</option>
+         </SELECT>
+         <SELECT id="b" name="b">
+					  <option value=></option>
+                    <OPTION value=01>01</OPTION>
+                    <OPTION value=02>02</OPTION>
+                    <OPTION value=03>03</OPTION>
+                    <OPTION value=04>04</OPTION>
+                    <OPTION value=05>05</OPTION>
+                    <OPTION value=06>06</OPTION>
+                    <OPTION value=07>07</OPTION>
+                    <OPTION value=08>08</OPTION>
+                    <OPTION value=09>09</OPTION>
+                    <OPTION value=10>10</OPTION>
+                    <OPTION value=11>11</OPTION>
+                    <OPTION value=12>12</OPTION>
+         </SELECT>
+         <SELECT id="c" name="c">
+					  <option value=></option>
+<OPTION value=2015>2015</OPTION>
+              <OPTION value=2014>2014</OPTION>
+              <OPTION value=2013>2013</OPTION>
+              <OPTION value=2012>2012</OPTION>
+              <OPTION value=2011>2011</OPTION>
+              <OPTION value=2010>2010</OPTION>
+         </SELECT>
+        </div>
+    </div>
+    <div class="fr">
+    	<h1>To:</h1>
+    	<div class="searchBar">
+      	<SELECT id="d" name="d">
+					  <option value=></option>
+				  <option value=01>01</option>
+              <option value=02>02</option>
+              <option value=03>03</option>
+              <option value=04>04</option>
+              <option value=05>05</option>
+              <option value=06>06</option>
+              <option value=07>07</option>
+              <option value=08>08</option>
+              <option value=09>09</option>
+              <option value=10>10</option>
+              <option value=11>11</option>
+              <option value=12>12</option>
+              <option value=13>13</option>
+              <option value=14>14</option>
+              <option value=15>15</option>
+              <option value=16>16</option>
+              <option value=17>17</option>
+              <option value=18>18</option>
+              <option value=19>19</option>
+              <option value=20>20</option>
+              <option value=21>21</option>
+              <option value=22>22</option>
+              <option value=23>23</option>
+              <option value=24>24</option>
+              <option value=25>25</option>
+              <option value=26>26</option>
+              <option value=27>27</option>
+              <option value=28>28</option>
+              <option value=29>29</option>
+              <option value=30>30</option>
+              <option value=31>31</option>
+              </SELECT>
+          <SELECT id="e" name="e">
+					  <option value=></option>
+                    <OPTION value=01>01</OPTION>
+                    <OPTION value=02>02</OPTION>
+                    <OPTION value=03>03</OPTION>
+                    <OPTION value=04>04</OPTION>
+                    <OPTION value=05>05</OPTION>
+                    <OPTION value=06>06</OPTION>
+                    <OPTION value=07>07</OPTION>
+                    <OPTION value=08>08</OPTION>
+                    <OPTION value=09>09</OPTION>
+                    <OPTION value=10>10</OPTION>
+                    <OPTION value=11>11</OPTION>
+                    <OPTION value=12>12</OPTION>
+           </SELECT>
+           <SELECT id="f" name="f">
+					  <option value=></option>
+<OPTION value=2015>2015</OPTION>
+              <OPTION value=2014>2014</OPTION>
+              <OPTION value=2013>2013</OPTION>
+              <OPTION value=2012>2012</OPTION>
+              <OPTION value=2011>2011</OPTION>
+              <OPTION value=2010>2010</OPTION>
+           </SELECT>
+        </div>
+    </div>
+</div>
+ 
+ <!--  -->
+        <div class="head_2 fr">
+<a href="#" onclick="createParameter('/language/search.do','english')">News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#" onclick="setPicHref('english')">Images</a>
+<input type="hidden" name="dateFlag" value="true" />
+<input name="siteName" value="english" type="hidden" />
+<input name="pageNum" value="1" type="hidden" />
+<input name="keyword" id="keyword" size="30" type="text" style="vertical-align:middle;" />
+<img src="../images/search.jpg" border="0" width="23" height="20" onclick="createParameter('/language/search.do','english')" style="vertical-align:middle;" />
+</form></div>
+    </div>
+</div>
+<!--nav-->
+<div class="nav clear"><a href="http://english.people.com.cn/index.html" target="_blank" class="one">Home</a>|<a href="http://english.people.com.cn/90785/index.html" target="_blank" class="one">Politics</a>|<a href="http://english.people.com.cn/90778/index.html" target="_blank">Business</a>|<a href="http://english.people.com.cn/90786/index.html" target="_blank">Military</a>|<a href="http://english.people.com.cn/90777/index.html" target="_blank">World</a>|<a href="http://english.people.com.cn/90882/index.html" target="_blank">Society</a>|<a href="http://english.people.com.cn/90782/index.html" target="_blank">Culture</a>|<a href="http://english.people.com.cn/205040/index.html" target="_blank">Travel</a>|<a href="http://english.people.com.cn/202936/index.html" target="_blank">Science</a>|<a href="http://english.people.com.cn/203691/index.html" target="_blank">Education</a>|<a href="http://english.people.com.cn/90779/index.html" target="_blank">Sports</a>|<a href="http://english.people.com.cn/90780/index.html" target="_blank">Opinions</a>|<a href="http://english.people.com.cn/102775/index.html" target="_blank">Special coverage</a>|<a href="http://english.people.com.cn/90783/index.html" target="_blank">Photo</a>|<a href="http://english.people.com.cn/98389/index.html" target="_blank">Video</a>
+</div>
+  	<div class="d2_left">
+   		
+    
+  	
+	  	<script>
+	  	{resetselect(,,,,,);}
+	  	</script>
+	  	
+	  	
+		81 results for <strong> starbucks</strong>( secs).
+		
+		<div class="clear">
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn//n/2014/0714/c90882-8754887.html" target="_blank">CCTV host detained amid anti-graft storm: reports</a></b></li>
+		<li>[ and has been no stranger to controversy along his path to fame.
+
+	He became a household name in China for his nationalistic stance, describing the opening of a <font color='red'>Starbucks</font> inside Beijing's Forbidden City]</li>
+			<li><a href="http://english.people.com.cn//n/2014/0714/c90882-8754887.html" target="_blank">http://english.people.com.cn//n/2014/0714/c90882-8754887.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2014-07-14 09:09:21</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn//n/2014/0611/c90000-8740034.html" target="_blank">China's coffee market taking time to brew</a></b></li>
+		<li>[ Ming said.
+
+	Foreign coffee brands were first introduced to China during the 1980s. Brands such as Nestle and <font color='red'>Starbucks</font> have played a significant role in creating a coffee culture in the country.
+
+	Ji]</li>
+			<li><a href="http://english.people.com.cn//n/2014/0611/c90000-8740034.html" target="_blank">http://english.people.com.cn//n/2014/0611/c90000-8740034.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2014-06-11 19:49:09</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn//n/2014/0529/c207616-8734572.html" target="_blank">Treats fit for a dragon</a></b></li>
+		<li>[ Dong Zhenxiang says the dish combines Chinese and Spanish ingredients, and the concept of Japanese sushi.
+
+	Even <font color='red'>Starbucks</font> has made zongzi products in China - small gems with transparent skins made of]</li>
+			<li><a href="http://english.people.com.cn//n/2014/0529/c207616-8734572.html" target="_blank">http://english.people.com.cn//n/2014/0529/c207616-8734572.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2014-05-29 14:08:43</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn/business//n/2014/0519/c90778-8729409.html" target="_blank">Capitalizing on the sweeping new zeitgeist</a></b></li>
+		<li>[ Xi Jinping's vision for the country's next decade.
+
+	The foreign brands that already fit into these categories include coffee chains <font color='red'>Starbucks</font> Corp and Costa Coffee as well as ice-cream maker Haagen]</li>
+			<li><a href="http://english.people.com.cn/business//n/2014/0519/c90778-8729409.html" target="_blank">http://english.people.com.cn/business//n/2014/0519/c90778-8729409.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2014-05-19 17:08:00</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn/98649/8588231.html" target="_blank">Temple in China sets up first anti-terror squad</a></b></li>
+		<li>[-year history. In 2012, world's largest coffee chain <font color='red'>Starbucks</font> opened an outlet close to the temple, sparking a heated debate in China.
+【1】 【2】 【3】 【4】 【5】 【6】 【7】 【8】  ]</li>
+			<li><a href="http://english.people.com.cn/98649/8588231.html" target="_blank">http://english.people.com.cn/98649/8588231.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2014-04-03 14:58:52</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn/business/8484431.html" target="_blank">Pricing bitterness as Pu'er coffee demands recognition</a></b></li>
+		<li>[ common practice by big names including Nestle, <font color='red'>Starbucks</font> and Maxwell House of playing down the nevertheless significant role that Pu'er coffee plays in their ingredients lists. While the International]</li>
+			<li><a href="http://english.people.com.cn/business/8484431.html" target="_blank">http://english.people.com.cn/business/8484431.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2013-12-13 19:12:00</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn/business/8456456.html" target="_blank">[<font color='red'>Starbucks</font> to pay Kraft 2.76 billion dollars over grocery dispute]</a></b></li>
+		<li>[BEIJING, Nov. 5  -- An arbitrator has ordered <font color='red'>Starbucks</font> Corp. to pay Kraft Foods Group Inc 2.23 billion dollars in damages plus 527 million in prejudgment interest.
+
+This is for its termination of a]</li>
+			<li><a href="http://english.people.com.cn/business/8456456.html" target="_blank">http://english.people.com.cn/business/8456456.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2013-11-14 11:47:41</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn/102775/208675/8445052.html" target="_blank">'Coffee Capital of China': Superior Quality</a></b></li>
+		<li>[ Appreciation Expert from <font color='red'>Starbucks</font> with 45 years' experience in coffee quality appreciation, gave a score as high as 81.5 for "Pu'er coffee" and said it is a kind of classic coffee that can be compared with]</li>
+			<li><a href="http://english.people.com.cn/102775/208675/8445052.html" target="_blank">http://english.people.com.cn/102775/208675/8445052.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2013-11-03 15:38:39</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn/203691/8390453.html" target="_blank">Recruiters’ heads go into the clouds</a></b></li>
+		<li>[ 40,000 yuan ($6,540) annually. Coffee giant <font color='red'>Starbucks</font> is another major client.
+
+"Nowadays, people work and live at a fast pace. Most of their time is spent on the Internet, which they access from their]</li>
+			<li><a href="http://english.people.com.cn/203691/8390453.html" target="_blank">http://english.people.com.cn/203691/8390453.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2013-09-05 13:13:40</li><br></br>
+			</ul>
+	
+		<ul class="on1 clear""><li><b><a href="http://english.people.com.cn/90778/8311166.html" target="_blank">High rent to bite foreign firms in China</a></b></li>
+		<li>[In January 1999 when café was still a new fashion in Beijing, <font color='red'>Starbucks</font> chose the China World Shopping Mall at the heart of Beijing’s central business district to open its first store in Chinese]</li>
+			<li><a href="http://english.people.com.cn/90778/8311166.html" target="_blank">http://english.people.com.cn/90778/8311166.html</a> &nbsp;&nbsp;&nbsp;&nbsp;2013-07-04 16:16:32</li><br></br>
+			</ul>
+	
+</div>
+
+<li class="one"><div class="wb_18">&nbsp;
+	
+     <a href="/language/search.do?pageNum=3&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">Previous</a>
+	  
+	
+	
+	<a href="/language/search.do?pageNum=1&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">1</a>
+	
+	<a href="/language/search.do?pageNum=2&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">2</a>
+	
+	<a href="/language/search.do?pageNum=3&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">3</a>
+	
+	4 		
+	
+	<a href="/language/search.do?pageNum=5&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">5</a>
+	
+	<a href="/language/search.do?pageNum=6&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">6</a>
+	
+	<a href="/language/search.do?pageNum=7&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">7</a>
+	
+	<a href="/language/search.do?pageNum=8&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">8</a>
+	
+	<a href="/language/search.do?pageNum=9&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">9</a>
+		
+	
+	<a href="/language/search.do?pageNum=5&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=">Next </a>
+	
+
+</div></li>
+</div>
+
+<!--copyright-->
+<div id="copyright"><a href="http://english.people.com.cn/102840/8347294.html" target="_blank">About People's Daily Online</a>| <a href="http://english.people.com.cn/102840/8347260.html" target="_blank">Contact Us</a>
+Copyright by People's Daily Online, All Rights Reserved 
+</div>
+</body>
+</html>

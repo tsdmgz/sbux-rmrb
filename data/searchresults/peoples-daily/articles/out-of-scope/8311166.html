@@ -1,0 +1,520 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="utf-8" />
+<meta name="robots" content="all" />
+<meta name="copyright" content="" />
+<meta name="description" content="InJanuary1999whencaféwasstillanewfashioninBeijing,StarbuckschosetheChinaWorldShoppi" />
+<meta name="keywords" content="" />
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="F_90778">
+<meta name="contentid" content="F_8311166">
+<meta name="publishdate" content="2013-07-04">
+<meta name="author" content="F_405">
+<meta name="source" content="People's Daily Online">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>High rent to bite foreign firms in China - People's Daily Online</title>
+<link href="/img/2011english/page.css" type="text/css" rel="stylesheet" media="all" />
+<script src="/css/searchforeign.js"></script>
+<script src="/img/2011english/list.js" language="javascript" type="text/javascript"></script>
+<script src="/css/2006english/content.js" language="javascript" type="text/javascript"></script>
+<script src="/img/2011english/swfobject.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function AXzhz(hideme)
+{
+var AX=document.all(hideme); //声明一个变量
+AX.style.display=AX.style.display=="none"?"":"none"; //判断是否隐藏
+}
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="/css/2006english/content.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function goto(){
+if (document.form1.content.value==null || document.form1.content.value=="" ) {
+		alert("Please write your message!");
+		return;
+	}
+	 else {
+		document.form1.submit();
+		}
+}
+function chakan()
+{
+window.open(url="http://posts.people.com.cn/bbs_new/app/src/main/?action=list&bid=5094072&channel_id=90000&id=8311166&lang=english");
+}
+-->
+</script>
+<script language="javascript" type="text/jscript">
+function go() {
+
+        var today = new Date();
+        var bday = new Date(2006,04, 27);
+
+        tf=document.dateform;
+        vd=tf.sday.options[tf.sday.selectedIndex].value;
+        vm=tf.smonth.options[tf.smonth.selectedIndex].value;
+vy=tf.syear.options[tf.syear.selectedIndex].value;
+        var aday = new Date(vy ,vm-1, vd);
+		if((vy>2007)){ document.location="http://english.peopledaily.com.cn/review/"+vy+vm+vd+".html";}
+ else if (((vd<16)&&(vm==10)&&(vy==2007))||((vy==2007)&&(vm<10))){ window.alert("回顾请从2007年10月16日开始");}
+ 
+ else    {
+        document.location="http://english.peopledaily.com.cn/review/"+vy+vm+vd+".html";}
+}
+function resetselect () {
+	var mydate = new Date();
+    var myyear = mydate.getFullYear();
+    var mymonth = mydate.getMonth()+1;
+	var mytoday = mydate.getDate();
+	if(new String(mymonth).length==1)mymonth="0"+new String(mymonth);
+	if(new String(mytoday).length==1)mytoday="0"+new String(mytoday);
+	document.dateform.syear.value=myyear;
+    document.dateform.smonth.value=mymonth;
+    document.dateform.sday.value=mytoday;
+}
+</script>
+<!--<script type='text/javascript' src='http://yousheng.people.com.cn/IVSWebSite/js/ivs_syn.js' >
+</script>
+<script type='text/javascript'> 
+    var ivs_speed = 0; 
+    var ivs_gender =15;
+    var ivs_iscssml =0;
+    var ivs_playerid =2;
+    var ivs_playertype =0;
+    ivs_speak();
+</script>-->
+</head>
+<body>
+<!--ad-->
+<div class="width980 ad01 clear"><script type="text/javascript">
+var isIE = (document.all) ? true : false;
+
+var $ = function (id) {
+	return "string" == typeof id ? document.getElementById(id) : id;
+};
+
+var Class = {
+	create: function() {
+		return function() { this.initialize.apply(this, arguments); }
+	}
+}
+
+var Extend = function(destination, source) {
+	for (var property in source) {
+		destination[property] = source[property];
+	}
+}
+
+var Bind = function(object, fun) {
+	return function() {
+		return fun.apply(object, arguments);
+	}
+}
+
+var Each = function(list, fun){
+	for (var i = 0, len = list.length; i < len; i++) { fun(list[i], i); }
+};
+
+
+//ie only
+var RevealTrans = Class.create();
+RevealTrans.prototype = {
+  initialize: function(container, options) {
+	this._img = document.createElement("img");
+	this._a = document.createElement("a");
+	
+	this._timer = null;//计时器
+	this.Index = 0;//显示索引
+	this._onIndex = -1;//当前索引
+	
+	this.SetOptions(options);
+	
+	this.Auto = !!this.options.Auto;
+	this.Pause = Math.abs(this.options.Pause);
+	this.Duration = Math.abs(this.options.Duration);
+	this.Transition = parseInt(this.options.Transition);
+	this.List = this.options.List;
+	this.onShow = this.options.onShow;
+	
+	//初始化显示区域
+	this._img.style.visibility = "hidden";//第一次变换时不显示红x图
+	this._img.style.width = this._img.style.height = "100%"; this._img.style.border = 0;
+	this._img.onmouseover = Bind(this, this.Stop);
+	this._img.onmouseout = Bind(this, this.Start);
+	isIE && (this._img.style.filter = "revealTrans()");
+	
+	this._a.target = "_blank";
+	
+	$(container).appendChild(this._a).appendChild(this._img);
+  },
+  //设置默认属性
+  SetOptions: function(options) {
+	this.options = {//默认值
+		Auto:		true,//是否自动切换
+		Pause:		5000,//停顿时间(微妙)
+		Duration:	1,//变换持续时间(秒)
+		Transition:	23,//变换效果(23为随机)
+		List:		[],//数据集合,如果这里不设置可以用Add方法添加
+		onShow:		function(){}//变换时执行
+	};
+	Extend(this.options, options || {});
+  },
+  Start: function() {
+	clearTimeout(this._timer);
+	//如果没有数据就返回
+	if(!this.List.length) return;
+	//修正Index
+	if(this.Index < 0 || this.Index >= this.List.length){ this.Index = 0; }
+	//如果当前索引不是显示索引就设置显示
+	if(this._onIndex != this.Index){ this._onIndex = this.Index; this.Show(this.List[this.Index]); }
+	//如果要自动切换
+	if(this.Auto){
+		this._timer = setTimeout(Bind(this, function(){ this.Index++; this.Start(); }), this.Duration * 1000 +   this.Pause);
+	}
+  },
+  //显示
+  Show: function(list) {
+	if(isIE){
+		//设置变换参数
+		with(this._img.filters.revealTrans){
+			Transition = this.Transition; Duration = this.Duration; apply(); play();
+		}
+	}
+	this._img.style.visibility = "";
+	//设置图片属性
+	this._img.src = list.img; this._img.alt = list.text;
+	//设置链接
+	!!list["url"] ? (this._a.href = list["url"]) : this._a.removeAttribute("href");
+	//附加函数
+	this.onShow();
+  },
+  //添加变换对象
+  Add: function(sIimg, sText, sUrl) {
+	this.List.push({ img: sIimg, text: sText, url: sUrl });
+  },
+  //停止
+  Stop: function() {
+	clearTimeout(this._timer);
+  }
+};
+
+
+</script>
+<style type="text/css">
+.container{
+	width:980px;
+	height:80px;
+	border:0;
+	position:relative;
+        overflow:hidden;
+}
+
+
+</style>
+<div id="idShow" class="container"></div>
+<script>
+var r = new RevealTrans("idShow");
+//添加变换对象
+
+r.Add('/mediafile/201207/11/F201207111509358128132852.jpg', ' ', '  http://english.people.com.cn/102775/205557/index.html');
+r.Start();
+
+r.Add('/mediafile/201204/16/F201204161541533265025480.jpg', ' ', '  http://english.people.com.cn/102775/100668/204459/index.html');
+r.Start();
+
+r.Add('/mediafile/201112/31/F201112311327216291559115.jpg', ' ', '  http://english.people.com.cn/102775/203908/index.html');
+r.Start();
+
+r.Add('/mediafile/201005/17/F201005170803181194618522.jpg', ' ', '  http://en.ynta.gov.cn/default.aspx');
+r.Start();
+
+</script></div>
+<!--nav-->
+<div class="nav01 clear">
+	<div class="width980 clear">
+    	<div class="nav01_left"><a href="http://english.peopledaily.com.cn/" target="_blank"><img src="/img/2011english/images/logo.gif" alt="" /></a></div>
+        <div class="nav01_right">
+        	<p class="one"><span><a style="cursor:hand;" onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://english.peopledaily.com.cn/');" href="#">Set as Homepage</a>|<a href="http://shifu.people.com.cn/register.php" target="_blank">Register</a>|<a href="http://shifu.people.com.cn/logging.php?action=login" target="_blank">Sign In</a></span><em><a href="http://www.people.com.cn/" target="_blank">Chinese</a>|<a href="http://www.people.com.cn/BIG5/" target="_blank">Big 5</a>|<a href="http://french.peopledaily.com.cn/" target="_blank">French</a>|<a href="http://russian.people.com.cn/" target="_blank">Russian</a>|<a href="http://spanish.peopledaily.com.cn/" target="_blank">Spanish</a>|<a href="http://j.people.com.cn/" target="_blank">Japanese</a>|<a href="http://arabic.people.com.cn/" target="_blank">Arabic</a>|<a href="http://kr.people.com.cn/" target="_blank">Korean</a></em></p>
+            <p class="two"><span><a href="/90785/index.html" target="_blank">China Politics</a>|<a href="/102775/index.html" target="_blank">Special Coverage</a>|<a href="/102759/index.html" target="_blank">PD Online Database</a>|<a href="http://shifu.people.com.cn/" target="_blank">Forum</a></span><em><a href="mailto:english@people.cn" target="_blank"><img src="/img/2011english/images/icon03.gif" alt="" />Feedback</a><a href="http://www.people.com.cn/rss/opml_en.xml" target="_blank"><img src="/img/2011english/images/icon04.gif" alt="" />RSS</a></em></p>
+        </div>
+  	</div>
+</div>
+<div class="width980 nav02 clear">
+	<div><form action="http://search.people.com.cn/rmw/GB/foreignsearch/languagesearch.jsp" name="MLSearch" method="post" onSubmit="if(getParameter_DJ(document.MLSearch)==false) return false;">
+<input type="hidden" name="language" value="2"/>
+<input type="hidden" name="sitename" value="english"/>
+<input type="hidden" name="XMLLIST">&nbsp;<img src="/img/2011english/images/icon06.gif" alt="" />&nbsp;<input type="text" name="names" id="names" class="one" value="" />&nbsp;<input type="image" name="button" id="button" value="search" src="/img/2011english/images/icon05.gif" /></form></div>
+    <p><a href="/90783/index.html" target="_blank" class="one">Photos</a><a href="/90786/index.html" target="_blank">Military</a><a href="/90883/index.html" target="_blank">Foreign Affairs</a><a href="/90778/index.html" target="_blank">Business</a><a href="/90882/index.html" target="_blank">Society</a><a href="/90782/index.html" target="_blank">Life&Culture</a><a href="/205040/index.html" target="_blank">Travel</a><a href="/202936/index.html" target="_blank">Science</a></p>
+</div>
+<!--new-->
+<div class="width978 news clear">
+	<div class="news_left">
+    	<b><a href="/102842/index.html" target="_blank">Latest News:</a>&nbsp;&nbsp;</b>
+        <div>
+        	<ul id="listmar"><li><a href='/90778/8311166.html' target=_blank>High rent to bite foreign firms in China</a></li>
+<li><a href='/90778/8311121.html' target=_blank>Huawei, London college to explore big data future</a></li>
+<li><a href='/90785/8311109.html' target=_blank>Ministry: KMT veterans will be cared for</a></li>
+<li><a href='/90785/8311104.html' target=_blank>CPC newspaper praises judicial transparency</a></li>
+<li><a href='/90785/8311103.html' target=_blank>CPC official urges global cooperation against cyber crimes, faster steps on norm</a></li>
+<li><a href='/90778/8311080.html' target=_blank>Downside risks in focus for China's economy</a></li>
+<li><a href='/90777/8311022.html' target=_blank>Abe eyes upcoming election to restore political stability</a></li>
+<li><a href='/90777/8311021.html' target=_blank>UN chief urges quick reinforcement of civilian rule in Egypt</a></li>
+<li><a href='/90782/8311020.html' target=_blank>Fantastic Beijing - The Imperial Palace</a></li>
+<li><a href='/90777/8311018.html' target=_blank>U.S., Germany to hold talks on surveillance programs</a></li>
+
+</ul>
+        </div>
+    </div>
+    <div class="news_right"></div>
+    <script type="text/javascript">
+	<!--   
+	new simpleScroll("listmar",25,10,1);   
+	-->
+    </script>
+</div>
+<!--d2-->
+<div class="width980 d2_content clearfix clear">
+	<div class="clear"><img src="/img/2011english/images/lined2.gif" alt="" /></div>
+  	<div class="d2_left" id="dingtop">
+   		<h2 class="p2_1 d2_1 clear"><span><a href="http://english.peopledaily.com.cn/" target="_blank">English</a>&gt;&gt;<a href="/90778/index.html">Business</a></span><em></em></h2>
+      	<div id="ivs_title"><h1 class="wb_1 clear"><span id="p_title">High rent to bite foreign firms in China</span></h1></div>
+        <h3 class="wb_2 clear"> (<a href="http://english.peopledaily.com.cn/">People's Daily Online</a>)</h3>
+        <h3 class="wb_3 clear"><span id="p_publishtime">16:16, July 04, 2013</span> <img src="/img/2011english/images/icon16.gif" alt="" /> <a href="#" onClick="return doZoom(16)"><img src="/img/2011english/images/icon17.gif" alt="" /></a> <a href="#" onClick="return doZoom(14)"><img src="/img/2011english/images/icon18.gif" alt="" /></a></h3>
+        <h4 id='ivs_player' style="text-align:center;padding-top:10px;"></h4>
+        <div class="wb_4 clear">
+        	<table width='450' cellspacing=0 cellpadding=3 align=center><tr><td align='center'><img src="/mediafile/201307/04/F201307041617573011010977.jpg"></td></tr><tr><td align=center><font color='#000000'>Starbucks closed its first coffee shop in Chinese mainland in late June. (File Photo)</font></td></tr></table>
+            <div id="ivs_content"><p id="zoom"><span id="p_content">In January 1999 when café was still a new fashion in Beijing, Starbucks chose the China World Shopping Mall at the heart of Beijing’s central business district to open its first store in Chinese mainland. <br><br>However, 14 years later, the American coffee company had to move out the shopping center in late June and the vacancy left by Starbucks is going to be filled by French luxury trunk maker Goyard. <br><br>Although Starbucks said a new store would be open nearby and the new location is much better, insiders agreed that the fast growing rent is the key factor to drive it out. <br><br>It’s estimated that Starbucks has to pay more than 7 million yuan (about 1.14 million U.S. dollars) annually to maintain the business in China World Shopping Mall, mostly for the rent and labor cost, while the average annual turnover of Starbucks’ stores in Asian market was 5 million yuan in 2012. <br><br>Starbucks is not the only one that is running away in face of the skyrocketing business cost. Foreign retailers, restaurants and department stores have to close or relocate their shops to offset the double pressure of shrinking profit and rising rent in Chinese market. <br><br>The retail giant Wall-Mart shut down three Chinese stores in April, increasing the number of closed shops to six over the past three years. One month later, British retailer Tesco ended the business of a 10-year-old store in Shanghai’s Zhenning Road because the lease contract ran out. <br><br>It’s noteworthy that the locations abandoned by foreign multinationals were almost in first-tier cities where their Chinese story began. High rent is expected to hit more Starbucks shops in Beijing and Shanghai. <br><br>After closing the Zhenning store, Tesco said it would continue to seek chance to open new store in Shanghai or in other Chinese cities. But analysts said these foreign companies would look beyond big cities and pin hope on second and third-tired Chinese cities for further expansion.<br><br><table width="516" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+    	<td colspan="3"><font size="4">We Recommend:</font></td>
+  	</tr>
+  	<tr>
+       <td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.people.com.cn/90778/8297378.html "><img    src="/mediafile/201307/01/F201307011338252422123812.jpg"  width="170"  height="120"  alt="" /><br  />Chinese investors' happiness and sadness 
+</a></td>
+       <td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.people.com.cn/90778/8291947.html"><img    src="/mediafile/201307/01/F201307011338259293103061.jpg"  width="170"  height="120"  alt="" /><br  />Top 10 luxury villas of China in 2013 
+
+ </a></td>
+<td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.people.com.cn/90778/8295393.html"><img    src="/mediafile/201307/01/F201307011338252139630783.jpg"  width="170"  height="120"  alt="" /><br  />Soft gold -- gambiered Guangdong silk 
+</a></td>         
+</tr>
+<tr>
+       <td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.people.com.cn/90778/8302711.html"><img    src="/mediafile/201307/01/F201307011338259648246861.jpg"  width="170"  height="120"  alt="" /><br  />China's 1st intelligent <br  />high-speed train tested </a></td>
+       <td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.people.com.cn/90778/8304859.html"><img    src="/mediafile/201307/01/F201307011338275561135591.jpg  "  width="170"  height="120"  alt="" /><br  />Glamorous models pose at Shenyang auto show </a></td>
+       <td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.people.com.cn/90778/8301062.html"><img    src="/mediafile/201307/01/F201307011338272508213088.jpg "  width="170"  height="120"  alt="" /><br  />Top 10 cities where home prices are set to soar </a></td>
+        </tr>
+<tr>
+       <td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.people.com.cn/90778/8295801.html"><img    src="/mediafile/201307/01/F201307011338291839234291.jpg"  width="170"  height="120"  alt="" /><br  />High-end singles party attracts swarm of girls
+</a></td>
+ <td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.people.com.cn/90778/8299039.html"><img    src="/mediafile/201307/01/F201307011338332487732708.jpg"  width="170"  height="120"  alt="" /><br  />Beijing's taxicabs in 30 years </a></td>
+       <td style="text-align:center;font-size:14px;padding- bottom:5px;"><a target="_blank"    href="http://english.peopledaily.com.cn/90778/8302161.html"><img    src="/mediafile/201307/01/F201307011338312363222595.jpg"  width="170"  height="120"  alt="" /><br  />12th Int'l Automobile Industry Expo kicks off </a></td>
+             </table></span></p></div>
+            
+        </div>
+        <div class="wb_6 clear"><span><a href="mailto:enpeople@sina.com">Email</a>|<a href="#"  onclick="doPrint()">Print</a>|<a href="#liuyan">Comments</a><img src="/img/2011english/images/icon19.gif" onclick="AXzhz('AX')" style="cursor:pointer;" /></span><em>（Editor：ChenLidan、Wang Jinxue）</em></div>
+        <div class="wb_7 clear" id="AX" style="display:none;">
+        	<h3>Increases the bookmark</h3>
+            <ul>
+            	<li><img src="/img/2011english/images/icon21.gif" alt="" /> <a href="http://twitter.com/home?status=High rent to bite foreign firms in China http://english.people.com.cn/90778/8311166.html" target="_blank">twitter</a></li>
+                <li><img src="/img/2011english/images/icon22.gif" alt="" /> <a href="http://www.facebook.com/sharer.php?u=http://english.people.com.cn/90778/8311166.html&t=High rent to bite foreign firms in China" target="_blank">facebook</a></li>
+                <li><img src="/img/2011english/images/icon20.gif" alt="" /> <a href="http://v.t.sina.com.cn/share/share.php?title=High rent to bite foreign firms in China http://english.people.com.cn/90778/8311166.html" target="_blank">Sina Microblog</a></li>
+                <li><img src="/img/2011english/images/icon23.gif" alt="" /> <a href="http://digg.com/submit?phase=2&url=http://english.people.com.cn/90778/8311166.html&title=High rent to bite foreign firms in China" target="_blank">digg</a></li>
+                <li><img src="/img/2011english/images/icon24.gif" alt="" /> <a href="http://www.google.com/bookmarks/mark?op=add&title=High rent to bite foreign firms in China&bkmk=http://english.people.com.cn/90778/8311166.html" target="_blank">Google</a></li>
+                <li><img src="/img/2011english/images/icon25.gif" alt="" /> <a href="http://del.icio.us/post?&url=http://english.people.com.cn/90778/8311166.html&title=High rent to bite foreign firms in China" target="_blank">Delicious</a></li>
+                <li><img src="/img/2011english/images/icon26.gif" alt="" /> <a href="http://buzz.yahoo.com/buzz?targetUrl=http://english.people.com.cn/90778/8311166.html&headline=High rent to bite foreign firms in China&src=People's Daily Online" target="_blank">buzz</a></li>
+                <li><img src="/img/2011english/images/icon27.gif" alt="" /> <a href="http://friendfeed.com/share?url=http://english.people.com.cn/90778/8311166.html&title=High rent to bite foreign firms in China - People's Daily Online" target="_blank">friendfeed</a></li>
+                <li><img src="/img/2011english/images/icon28.gif" alt="" /> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://english.people.com.cn/90778/8311166.html&title=High rent to bite foreign firms in China&summary=&source=http://english.people.com.cn" target="_blank">Linkedin</a></li>
+                <li><img src="/img/2011english/images/icon29.gif" alt="" /> <a href="http://secure.diigo.com/post?url=http://english.people.com.cn/90778/8311166.html&title=High rent to bite foreign firms in China - People's Daily Online" target="_blank">diigo</a></li>
+                <li><img src="/img/2011english/images/icon30.gif" alt="" /> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl%3Dhttp://english.people.com.cn/90778/8311166.html%26title%3DHigh rent to bite foreign firms in China">reddit</a></li>
+                <li><img src="/img/2011english/images/icon31.gif" alt="" /> <a href="http://www.stumbleupon.com/submit?url=http://english.people.com.cn/90778/8311166.html&title=High rent to bite foreign firms in China" target="_blank">stumbleupon</a></li>
+                <li><img src="/img/2011english/images/icon32.gif" alt="" /> <a href="javascript:void(0);" onclick="window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(document.location.href));return false;" title="">Qzone</a></li>
+                <li><img src="/img/2011english/images/icon32.gif" alt="" /> <a href="http://v.t.qq.com/share/share.php?title=High rent to bite foreign firms in China http://english.people.com.cn/90778/8311166.html" target="_blank">QQ Microblog</a></li>
+            </ul>
+        </div>
+        <div class="wb_8 clear">
+       	  	<h2>Related Reading</h2>
+          	
+      	</div>
+        <div class="wb_10 clear">
+   			<h2><span><a href=http://english.people.com.cn/ target=_blank>Hot News</a></span></h2>
+            <ol><li><a href='/90777/8310618.html' target=_blank>S. Korea proposes working-level talks with DPRK to discuss Kaesong issue</a></li>
+<li><a href='/90777/8309966.html' target=_blank>Constitutional court chief to run Egypt in transitional period: army</a></li>
+<li><a href='/90882/8310065.html' target=_blank>Man swims in flood to deliver food for pregnant wife</a></li>
+<li><a href='/90882/8310539.html' target=_blank>Photos show girl adding untreated river water to school lunch</a></li>
+<li><a href='/90778/8308670.html' target=_blank>Credit crunch hits China's smaller firms</a></li>
+<li><a href='/90778/8308455.html' target=_blank>Apple sued over Siri in patent case</a></li>
+<li><a href='/205040/8310164.html' target=_blank>Most beautiful boulevards around world</a></li>
+<li><a href='/90782/8310746.html' target=_blank>Paris Fashion Week: Giorgio Armani &quot;in the nude&quot;</a></li>
+</ol>
+        </div>
+        <div class="wb_9 clear">
+   			<h2><span>Leave your comment</span><em>0 comments</em></h2>
+           <form name="form1" method="post" action="http://posts.people.com.cn/bbs_new/app/src/main/?action=parse_publish&op=ins&bid=5094072&channel_id=90000&id=8311166&lang=english" target="_blank" >
+    <INPUT type=hidden name=pid value=0>
+   	  	  <ol id="liuyan">
+       	  	  	<li>Name <input type="text" name="yonghuming" id="yonghuming" /></li>
+           	  	<li><span><textarea name="content" id="content" cols="45" rows="5"></textarea></span><em><a href="JavaScript:goto();"><img src="/img/2011english/images/icon33.gif" alt="" /></a><br /><a href="http://posts.people.com.cn/bbs_new/app/src/main/?action=list&bid=5094072&channel_id=90000&id=8311166&lang=english" target="_blank"><img src="/img/2011english/images/icon34.gif" alt="" /></a></em></li>
+       	  	</ol>
+            </form>
+            <dl>
+            	
+            </dl>
+        </div>
+        <div class="wb_5 wb_11 clear"><a href="http://english.peopledaily.com.cn/" target="_blank"><img src="/img/2011english/images/icon35.gif" alt="" /></a>&nbsp;&nbsp;<a href="#dingtop"><img src="/img/2011english/images/icon37.gif" alt="" /></a></div>
+    </div>
+    <div class="d2_right">
+    	<h2 class="p1_2 p1_8 d2_4 clear"><span>Selections for you</span></h2>
+        <ol class="wb_12 clear"><li><a href="http://english.peopledaily.com.cn/90786/8310035.html" target=_blank><img src="/mediafile/201307/04/F201307041013553203885368.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90786/8310035.html" target=_blank>China's main warships to take part in drills<br></a></li>
+<li><a href="http://english.peopledaily.com.cn/90786/8310473.html" target=_blank><img src="/mediafile/201307/04/F201307041011013008152658.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90786/8310473.html" target=_blank>Chinese fleet conducts formation exercise <br></a></li>
+<li><a href="http://english.people.com.cn/90777/8309988.html" target=_blank><img src="/mediafile/201307/04/F201307041317091068813934.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90777/8309988.html" target=_blank>Egypt army topples president</a></li>
+<li><a href="http://english.people.com.cn/90882/8310120.html" target=_blank><img src="/mediafile/201307/04/F201307041336371986631224.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90882/8310120.html" target=_blank>Zoo animals searches coolness in summer</a></li>
+<li><a href="http://english.peopledaily.com.cn/90882/8310065.html" target=_blank><img src="/mediafile/201307/04/F201307041334322571337183.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90882/8310065.html" target=_blank>Man swims in flood to deliver food for wife</a></li>
+<li><a href="http://english.people.com.cn/90882/8309236.html" target=_blank><img src="/mediafile/201307/04/F201307041332312291668412.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90882/8309236.html" target=_blank>Audition for dating with rich</a></li>
+<li><a href="http://english.people.com.cn/90782/8310859.html" target=_blank><img src="/mediafile/201307/04/F201307041454423987698663.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90782/8310859.html" target=_blank>Beauties under summer sun on Beijing </a></li>
+<li><a href="http://english.people.com.cn/90782/8310873.html" target=_blank><img src="/mediafile/201307/04/F201307041458481171720565.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90782/8310873.html" target=_blank>Yuan Shanshan in black and white photos</a></li>
+<li><a href="http://english.people.com.cn/90778/8309116.html" target=_blank><img src="/mediafile/201307/04/F201307041610202194652782.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90778/8309116.html" target=_blank>New head to steer COSCO</a></li>
+<li><a href="http://english.peopledaily.com.cn/90778/8308377.html" target=_blank><img src="/mediafile/201307/03/F201307031019122812211935.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90778/8308377.html" target=_blank>Diagnose crisis of China's solar sector</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>Most Popular</span></h2>
+        <div class="p3_9 d2_5 clear">
+        	<ul><!--1--><li><a href="/90777/8307225.html" title="Thousands celebrate gay rights at San Francisco Pride Parade" target=_blank>Thousands celebrate gay rights at San F…</a></li><!--2--><li><a href="/90778/8308702.html" title="Chinese company looks to take a bite out of Apple" target=_blank>Chinese company looks to take a bite ou…</a></li><!--3--><li><a href="/90883/8306662.html" title="Tokyo warned not to resort to 'empty talk'" target=_blank>Tokyo warned not to resort to 'empty ta…</a></li><!--4--><li><a href="/90777/8308527.html" target=_blank>Snowden's fate a sign of US hegemony</a></li><!--5--><li><a href="/90778/8309891.html" title="Analysts remain cautious over price outlook of gold despite recent plunge" target=_blank>Analysts remain cautious over price out…</a></li><!--6--><li><a href="/90786/8306691.html" title="PLAAF's first-batch of female fighter pilots with double bachelor degrees debuts" target=_blank>PLAAF's first-batch of female fighter p…</a></li><!--7--><li><a href="/90786/8310148.html" target=_blank>Tokyo monitors Chinese fleet</a></li><!--8--><li><a href="/90883/8308439.html" title="China's top political advisor urges Japan to return to normal track of bilateral ties" target=_blank>China's top political advisor urges Jap…</a></li><!--9--><li><a href="/90882/8309907.html" target=_blank>Sex video official appeals in Chongqing</a></li><!--10--><li><a href="/205040/8306734.html" target=_blank>Top 10 most dangerous roads in the world</a></li></ul>
+        </div>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>Opinions</span></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90883/8310938.html' target=_blank>China to strengthen ties with Uganda</a></li>
+<li><a href='/90782/90880/8309990.html' target=_blank>Hot weather brings wave of health problems</a></li>
+<li><a href='/90778/8310108.html' target=_blank>Wealthy individuals 'see education as asset'</a></li>
+<li><a href='/90882/8309087.html' target=_blank>Unite to prevent violence against women</a></li>
+<li><a href='/90882/8309086.html' target=_blank>Dogs are the responsibility of their owners</a></li>
+<li><a href='/90883/8309014.html' target=_blank>Pakistani PM's China trip to boost economic co-op</a></li>
+<li><a href='/90778/8308702.html' target=_blank>Chinese company looks to take a bite out of Apple</a></li>
+<li><a href='/90778/8308714.html' target=_blank>PwC: HK IPOs expected to boom this year</a></li>
+<li><a href='/90777/8307032.html' target=_blank>Abe's 'values diplomacy' goes against the grain</a></li>
+<li><a href='/90785/8305575.html' target=_blank>New features of the 5th Cross-Strait Forum</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+		<div class="p1_12 d2_6 clear">
+        	<span><a href="http://www.ichacha.net/ppl.aspx" target="_blank"><img src="/img/2011english/images/icon15.gif" alt="" /></a></span>
+       	  <form target="_blank" action="http://www.ichacha.net/people.aspx" method="get"><p><input type="text" name="q" class="one" /> <input type="image" value="查词" src="/img/2011english/images/icon10.gif" /></p></form>
+        </div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>What’s happening in China</span></h2>
+        <p class="p1_9 clear"><a href="http://english.peopledaily.com.cn/90882/8310065.html" target=_blank><img src="/mediafile/201307/04/F201307040935084212292595.jpg" width="134" height="98"></a><a href="http://english.peopledaily.com.cn/90882/8310065.html" target=_blank><b>Man swims in flood to deliver food for pregnant wife</b></a>
+</p>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90882/8310558.html' target=_blank>Air China to test in-flight Wi-Fi</a></li>
+<li><a href='/90882/8309951.html' target=_blank>China boosts handling of nuke emergencies</a></li>
+<li><a href='/90882/8310045.html' target=_blank>32 endangered birds released into the wild</a></li>
+<li><a href='/90882/8309938.html' target=_blank>Summer heat wave sweeps across China </a></li>
+<li><a href='/90882/8308711.html' target=_blank>Dad still doubted son's death after 56 phone calls </a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <!--<h2 class="p1_2 p1_8 d2_4 clear"><span>Chinese Military Observatory</span></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90786/8310473.html' target=_blank>Chinese fleet conducts formation exercise </a></li>
+<li><a href='/90786/8310454.html' target=_blank>Radar equipment to be used in joint naval drills</a></li>
+<li><a href='/90786/8310441.html' target=_blank>PLAN's taskforce leaves for &quot;Maritime Joint Drills&quot;</a></li>
+<li><a href='/90786/8308401.html' target=_blank>Special operation members in military skills training</a></li>
+<li><a href='/90786/8308617.html' target=_blank>Two new-type frigates of PLA Hong Kong Garrison</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p2_1 d2_8 clear"><span>PD Online Data</span><em></em></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90785/8170526.html' target=_blank>Video: Xi Jinping, Zhang Dejiang address NPC closing session</a></li>
+<li><a href='/90785/8170563.html' target=_blank>Video: Premier Li Keqiang meets the press</a></li>
+<li><a href='/90785/8163165.html' target=_blank>CPPCC chairman delivers speech</a></li>
+<li><a href='/90785/8021877.html' target=_blank>Profile: Xi Jinping</a></li>
+<li><a href='/90785/8021878.html' target=_blank>Profile: Li Keqiang</a></li>
+</ol>-->
+        <div class="d2_11 clear"><p><img src="/img/2011english/images/icon12.gif" alt="" />
+                 <form name="dateform" method="post" onsubmit="return false">
+          <select name="sday">
+              <option value="01">1</option>
+              <option value="02">2</option>
+              <option value="03">3</option>
+              <option value="04">4</option>
+              <option value="05">5</option>
+              <option value="06">6</option>
+              <option value="07">7</option>
+              <option value="08">8</option>
+              <option value="09">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+          </select>
+          <select name="smonth">
+              <option value="01">Jan</option>
+              <option value="02">Feb</option>
+              <option value="03">Mar</option>
+              <option value="04">Apr</option>
+              <option value="05">May</option>
+              <option value="06">Jun</option>
+              <option value="07">Jul</option>
+              <option value="08">Aug</option>
+              <option value="09">Sep</option>
+              <option value="10">Oct</option>
+              <option value="11">Nov</option>
+              <option value="12">Dec</option>
+            </select>
+          <select name="syear">
+              <option value="2007">2007年</option>
+			  <option value="2008">2008年</option>
+              <option value="2009">2009年</option>
+              <option value="2010">2010年</option>
+              <option value="2011">2011年</option>
+              <option value="2012">2012年</option>
+              <option value="2013">2013年</option>
+            </select><input type="button" value="go" onclick="go()" />
+           <script language="Javascript">
+  	{resetselect()}
+    </script>
+          </form></p>
+        </div>
+    </div>
+    <div class="clear"><img src="/img/2011english/images/lined2.gif" alt="" /></div>
+</div>
+<!--copyright-->
+<div id="copyright"><a href="/102840/7560415.html"  target="_blank">About Us</a>| <a href="/102840/7560413.html"  target="_blank">Contact Us</a>| <a href="/102840/7560418.html"  target="_blank">Site Map</a>| <a href="/102840/7560414.html"  target="_blank">Advertise on site</a>| <a href="/102840/7832549.html"  target="_blank">Job Offer</a><br>
+Copyright by People's Daily Online, All Rights Reserved 
+</div>
+<img src="http://58.68.146.44:8000/d.gif?id=8311166" width=0 height=0>
+<script src="/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://dict.bing.com.cn/cloudwidget/Scripts/Generated/BingTranslate_Hover_Phrase_Selection_ShowIcon.js"></script>
+<script type="text/javascript">
+BingCW.Init({
+   AppID:"http://english.peopledaily.com.cn/",
+   ContentArea:"p_content,p_title",
+   MachineTranslation:true,
+   WebDefinition:true
+})</script>
+</body>
+</html>

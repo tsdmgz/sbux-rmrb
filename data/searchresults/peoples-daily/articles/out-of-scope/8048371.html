@@ -1,0 +1,507 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="utf-8" />
+<meta name="robots" content="all" />
+<meta name="copyright" content="" />
+<meta name="description" content="LONDON,Dec.5(Xinhua)--Britishchancellor,orfinanceminister,GeorgeOsborneonWednesdaysaid" />
+<meta name="keywords" content="tax hike,British chancellor,interim budget" />
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="F_90777">
+<meta name="contentid" content="F_8048371">
+<meta name="publishdate" content="2012-12-06">
+<meta name="author" content="F_100627">
+<meta name="source" content="Xinhua">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>British chancellor underpins tax hike in interim budget report - People's Daily Online</title>
+<link href="/img/2011english/page.css" type="text/css" rel="stylesheet" media="all" />
+<script src="/css/searchforeign.js"></script>
+<script src="/img/2011english/list.js" language="javascript" type="text/javascript"></script>
+<script src="/css/2006english/content.js" language="javascript" type="text/javascript"></script>
+<script src="/img/2011english/swfobject.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function AXzhz(hideme)
+{
+var AX=document.all(hideme); //声明一个变量
+AX.style.display=AX.style.display=="none"?"":"none"; //判断是否隐藏
+}
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="/css/2006english/content.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function goto(){
+if (document.form1.content.value==null || document.form1.content.value=="" ) {
+		alert("Please write your message!");
+		return;
+	}
+	 else {
+		document.form1.submit();
+		}
+}
+function chakan()
+{
+window.open(url="http://posts.people.com.cn/bbs_new/app/src/main/?action=list&bid=4838336&channel_id=90000&id=8048371&lang=english");
+}
+-->
+</script>
+<script language="javascript" type="text/jscript">
+function go() {
+
+        var today = new Date();
+        var bday = new Date(2006,04, 27);
+
+        tf=document.dateform;
+        vd=tf.sday.options[tf.sday.selectedIndex].value;
+        vm=tf.smonth.options[tf.smonth.selectedIndex].value;
+vy=tf.syear.options[tf.syear.selectedIndex].value;
+        var aday = new Date(vy ,vm-1, vd);
+		if((vy>2007)){ document.location="http://english.peopledaily.com.cn/review/"+vy+vm+vd+".html";}
+ else if (((vd<16)&&(vm==10)&&(vy==2007))||((vy==2007)&&(vm<10))){ window.alert("回顾请从2007年10月16日开始");}
+ 
+ else    {
+        document.location="http://english.peopledaily.com.cn/review/"+vy+vm+vd+".html";}
+}
+function resetselect () {
+	var mydate = new Date();
+    var myyear = mydate.getFullYear();
+    var mymonth = mydate.getMonth()+1;
+	var mytoday = mydate.getDate();
+	if(new String(mymonth).length==1)mymonth="0"+new String(mymonth);
+	if(new String(mytoday).length==1)mytoday="0"+new String(mytoday);
+	document.dateform.syear.value=myyear;
+    document.dateform.smonth.value=mymonth;
+    document.dateform.sday.value=mytoday;
+}
+</script>
+<!--<script type='text/javascript' src='http://yousheng.people.com.cn/IVSWebSite/js/ivs_syn.js' >
+</script>
+<script type='text/javascript'> 
+    var ivs_speed = 0; 
+    var ivs_gender =15;
+    var ivs_iscssml =0;
+    var ivs_playerid =2;
+    var ivs_playertype =0;
+    ivs_speak();
+</script>-->
+</head>
+<body>
+<!--ad-->
+<div class="width980 ad01 clear"><script type="text/javascript">
+var isIE = (document.all) ? true : false;
+
+var $ = function (id) {
+	return "string" == typeof id ? document.getElementById(id) : id;
+};
+
+var Class = {
+	create: function() {
+		return function() { this.initialize.apply(this, arguments); }
+	}
+}
+
+var Extend = function(destination, source) {
+	for (var property in source) {
+		destination[property] = source[property];
+	}
+}
+
+var Bind = function(object, fun) {
+	return function() {
+		return fun.apply(object, arguments);
+	}
+}
+
+var Each = function(list, fun){
+	for (var i = 0, len = list.length; i < len; i++) { fun(list[i], i); }
+};
+
+
+//ie only
+var RevealTrans = Class.create();
+RevealTrans.prototype = {
+  initialize: function(container, options) {
+	this._img = document.createElement("img");
+	this._a = document.createElement("a");
+	
+	this._timer = null;//计时器
+	this.Index = 0;//显示索引
+	this._onIndex = -1;//当前索引
+	
+	this.SetOptions(options);
+	
+	this.Auto = !!this.options.Auto;
+	this.Pause = Math.abs(this.options.Pause);
+	this.Duration = Math.abs(this.options.Duration);
+	this.Transition = parseInt(this.options.Transition);
+	this.List = this.options.List;
+	this.onShow = this.options.onShow;
+	
+	//初始化显示区域
+	this._img.style.visibility = "hidden";//第一次变换时不显示红x图
+	this._img.style.width = this._img.style.height = "100%"; this._img.style.border = 0;
+	this._img.onmouseover = Bind(this, this.Stop);
+	this._img.onmouseout = Bind(this, this.Start);
+	isIE && (this._img.style.filter = "revealTrans()");
+	
+	this._a.target = "_blank";
+	
+	$(container).appendChild(this._a).appendChild(this._img);
+  },
+  //设置默认属性
+  SetOptions: function(options) {
+	this.options = {//默认值
+		Auto:		true,//是否自动切换
+		Pause:		5000,//停顿时间(微妙)
+		Duration:	1,//变换持续时间(秒)
+		Transition:	23,//变换效果(23为随机)
+		List:		[],//数据集合,如果这里不设置可以用Add方法添加
+		onShow:		function(){}//变换时执行
+	};
+	Extend(this.options, options || {});
+  },
+  Start: function() {
+	clearTimeout(this._timer);
+	//如果没有数据就返回
+	if(!this.List.length) return;
+	//修正Index
+	if(this.Index < 0 || this.Index >= this.List.length){ this.Index = 0; }
+	//如果当前索引不是显示索引就设置显示
+	if(this._onIndex != this.Index){ this._onIndex = this.Index; this.Show(this.List[this.Index]); }
+	//如果要自动切换
+	if(this.Auto){
+		this._timer = setTimeout(Bind(this, function(){ this.Index++; this.Start(); }), this.Duration * 1000 +   this.Pause);
+	}
+  },
+  //显示
+  Show: function(list) {
+	if(isIE){
+		//设置变换参数
+		with(this._img.filters.revealTrans){
+			Transition = this.Transition; Duration = this.Duration; apply(); play();
+		}
+	}
+	this._img.style.visibility = "";
+	//设置图片属性
+	this._img.src = list.img; this._img.alt = list.text;
+	//设置链接
+	!!list["url"] ? (this._a.href = list["url"]) : this._a.removeAttribute("href");
+	//附加函数
+	this.onShow();
+  },
+  //添加变换对象
+  Add: function(sIimg, sText, sUrl) {
+	this.List.push({ img: sIimg, text: sText, url: sUrl });
+  },
+  //停止
+  Stop: function() {
+	clearTimeout(this._timer);
+  }
+};
+
+
+</script>
+<style type="text/css">
+.container{
+	width:980px;
+	height:80px;
+	border:0;
+	position:relative;
+        overflow:hidden;
+}
+
+
+</style>
+<div id="idShow" class="container"></div>
+<script>
+var r = new RevealTrans("idShow");
+//添加变换对象
+
+r.Add('/mediafile/201207/11/F201207111509358128132852.jpg', ' ', '  http://english.people.com.cn/102775/205557/index.html');
+r.Start();
+
+r.Add('/mediafile/201204/16/F201204161541533265025480.jpg', ' ', '  http://english.people.com.cn/102775/100668/204459/index.html');
+r.Start();
+
+r.Add('/mediafile/201112/31/F201112311327216291559115.jpg', ' ', '  http://english.people.com.cn/102775/203908/index.html');
+r.Start();
+
+r.Add('/mediafile/201005/17/F201005170803181194618522.jpg', ' ', '  http://en.ynta.gov.cn/default.aspx');
+r.Start();
+
+</script></div>
+<!--nav-->
+<div class="nav01 clear">
+	<div class="width980 clear">
+    	<div class="nav01_left"><a href="http://english.peopledaily.com.cn/" target="_blank"><img src="/img/2011english/images/logo.gif" alt="" /></a></div>
+        <div class="nav01_right">
+        	<p class="one"><span><a style="cursor:hand;" onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://english.peopledaily.com.cn/');" href="#">Set as Homepage</a>|<a href="http://shifu.people.com.cn/register.php" target="_blank">Register</a>|<a href="http://shifu.people.com.cn/logging.php?action=login" target="_blank">Sign In</a></span><em><a href="http://www.people.com.cn/" target="_blank">Chinese</a>|<a href="http://www.people.com.cn/BIG5/" target="_blank">Big 5</a>|<a href="http://french.peopledaily.com.cn/" target="_blank">French</a>|<a href="http://russian.people.com.cn/" target="_blank">Russian</a>|<a href="http://spanish.peopledaily.com.cn/" target="_blank">Spanish</a>|<a href="http://j.people.com.cn/" target="_blank">Japanese</a>|<a href="http://arabic.people.com.cn/" target="_blank">Arabic</a>|<a href="http://kr.people.com.cn/" target="_blank">Korean</a></em></p>
+            <p class="two"><span><a href="/90785/index.html" target="_blank">China Politics</a>|<a href="/102775/index.html" target="_blank">Special Coverage</a>|<a href="/102759/index.html" target="_blank">PD Online Database</a>|<a href="http://shifu.people.com.cn/" target="_blank">Forum</a></span><em><a href="mailto:english@people.cn" target="_blank"><img src="/img/2011english/images/icon03.gif" alt="" />Feedback</a><a href="http://www.people.com.cn/rss/opml_en.xml" target="_blank"><img src="/img/2011english/images/icon04.gif" alt="" />RSS</a></em></p>
+        </div>
+  	</div>
+</div>
+<div class="width980 nav02 clear">
+	<div><form action="http://search.people.com.cn/rmw/GB/foreignsearch/languagesearch.jsp" name="MLSearch" method="post" onSubmit="if(getParameter_DJ(document.MLSearch)==false) return false;">
+<input type="hidden" name="language" value="2"/>
+<input type="hidden" name="sitename" value="english"/>
+<input type="hidden" name="XMLLIST">&nbsp;<img src="/img/2011english/images/icon06.gif" alt="" />&nbsp;<input type="text" name="names" id="names" class="one" value="" />&nbsp;<input type="image" name="button" id="button" value="search" src="/img/2011english/images/icon05.gif" /></form></div>
+    <p><a href="/90783/index.html" target="_blank" class="one">Photos</a><a href="/90786/index.html" target="_blank">Military</a><a href="/90883/index.html" target="_blank">Foreign Affairs</a><a href="/90778/index.html" target="_blank">Business</a><a href="/90882/index.html" target="_blank">Society</a><a href="/90782/index.html" target="_blank">Life&Culture</a><a href="/205040/index.html" target="_blank">Travel</a><a href="/202936/index.html" target="_blank">Science</a></p>
+</div>
+<!--new-->
+<div class="width978 news clear">
+	<div class="news_left">
+    	<b><a href="/102842/index.html" target="_blank">Latest News:</a>&nbsp;&nbsp;</b>
+        <div>
+        	<ul id="listmar"><li><a href='/90777/8048371.html' target=_blank>British chancellor underpins tax hike in interim budget report</a></li>
+<li><a href='/90782/8048343.html' target=_blank>French 'daifu' Paillard obsessed by Chinese medicine and therapy</a></li>
+<li><a href='/90882/8048320.html' target=_blank>11 still missing 3 days after NE China flooded colliery</a></li>
+<li><a href='/90882/8048299.html' target=_blank>Good luck getting married on propitious day</a></li>
+<li><a href='/205040/8048275.html' target=_blank>Beautiful rime scenery of China's Jilin</a></li>
+<li><a href='/90778/8048273.html' target=_blank>Economic creative product expo held in Jakarta </a></li>
+<li><a href='/90882/8048271.html' target=_blank>Court suspends sentence of man convicted of drunk driving</a></li>
+<li><a href='/90778/8048247.html' target=_blank>Citigroup to slash 11,000 jobs for cost saving</a></li>
+<li><a href='/90882/8048201.html' target=_blank>Metro workers replace Line 1’s oldest track</a></li>
+<li><a href='/90777/8048194.html' target=_blank>Greeks lose half purchasing power within two years: survey </a></li>
+
+</ul>
+        </div>
+    </div>
+    <div class="news_right"><div class="tianqi_right">Beijing&nbsp;&nbsp;&nbsp;Cloudy&nbsp;&nbsp;&nbsp;<span style="color:#c00;">&nbsp;11&nbsp;/&nbsp;2&nbsp;℃</span>&nbsp;&nbsp;<a href="/90001/98751/index.html" target="_blank"><span style="color:#000;">City&nbsp;Forecast</span></a></div></div></div>
+    <script type="text/javascript">
+	<!--   
+	new simpleScroll("listmar",25,10,1);   
+	-->
+    </script>
+</div>
+<!--d2-->
+<div class="width980 d2_content clearfix clear">
+	<div class="clear"><img src="/img/2011english/images/lined2.gif" alt="" /></div>
+  	<div class="d2_left" id="dingtop">
+   		<h2 class="p2_1 d2_1 clear"><span><a href="http://english.peopledaily.com.cn/" target="_blank">English</a>&gt;&gt;<a href="/90777/index.html">World</a></span><em></em></h2>
+      	<div id="ivs_title"><h1 class="wb_1 clear"><span id="p_title">British chancellor underpins tax hike in interim budget report</span></h1></div>
+        <h3 class="wb_2 clear"> (<a href="http://www.xinhuanet.com/english2010/">Xinhua</a>)</h3>
+        <h3 class="wb_3 clear"><span id="p_publishtime">11:06, December 06, 2012</span> <img src="/img/2011english/images/icon16.gif" alt="" /> <a href="#" onClick="return doZoom(16)"><img src="/img/2011english/images/icon17.gif" alt="" /></a> <a href="#" onClick="return doZoom(14)"><img src="/img/2011english/images/icon18.gif" alt="" /></a></h3>
+        <h4 id='ivs_player' style="text-align:center;padding-top:10px;"></h4>
+        <div class="wb_4 clear">
+        	
+            <div id="ivs_content"><p id="zoom"><span id="p_content">LONDON, Dec. 5 (Xinhua) -- British chancellor, or finance minister, George Osborne on Wednesday said the coalition government would collect 7 billion pounds more in tax than the last government to tackle tax evasions and loopholes.<br><br>The government will invest about 77 million pounds to ensure multinational firms to &quot;pay their fair share,&quot; the chancellor vowed in his interim report of the annual budget.<br><br>Giant multinational firms like Starbucks, Google, Ebay, Facebook and Ebay have been found to contribute very little or even nothing after years of lucrative operation in Britain through transferring profits to other low-tax countries, he said.<br><br>Meanwhile, the government will cut corporation tax rate further by 1 percent from April 2014, in a bid to boost investment in business, while banks' levy rate will be increased to 0.13 percent next year as the lucrative banking sector is urged to contribute more to the society.<br><br>The chancellor raised income tax threshold by 235 pounds in 2013, which means personal incomes under 9,440 pounds are exempted from tax. Those who earn more than 41,865 pounds a year would apply to the 40 percent income tax in 2014, and 42,285 pounds in 2015, while the current threshold is 41,450 pounds.<br><br>Osborne also said to abandon the original plan of increasing fuel duty by 3 pence a litre from January next year.<br><br>The interim report reaffirmed the British government's austerity policies and further extended the plan to 2018 due to sluggish economic recovery. (1 pound= 1.6 U.S. dollars) <br><br><table width="555" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+    	<td colspan="3"><font size="4">We recommend:</font></td>
+  	</tr>
+  	<tr>
+    	<td style="text-align:center;font-size:14px;padding-bottom:5px;"><a target="_blank" href="http://english.people.com.cn/90777/8027601.html"><img src="/mediafile/201211/28/F201211281332571389833582.jpg" width="185" height="110" alt="" /><br />The popular dances that drive people 'crazy'</a></td>
+    	<td style="text-align:center;font-size:14px;padding-bottom:5px;"><a target="_blank" href="http://english.people.com.cn/90777/8027355.html"><img src="/mediafile/201211/28/F201211281340322297219146.jpg" width="185" height="110" alt="" /><br />Kim Jong Un inspects horse riding training ground</a></td>
+    	<td style="text-align:center;font-size:14px;padding-bottom:5px;"><a href="http://english.people.com.cn/90777/8029359.html" target="_blank"><img src="/mediafile/201211/28/F201211281344002727080081.jpg" width="185" height="110" alt="" /><br />Heartbreaking children under war threat</a></td>
+  	</tr>
+  	<tr>
+    	<td style="text-align:center;font-size:14px;padding-bottom:5px;"><a target="_blank" href="http://english.people.com.cn/90777/8031082.html"><img src="/mediafile/201211/28/F201211281444042174017270.jpg" width="185" height="110" alt="" /><br />N. Korea’s Kim visits Ministry of State Security</a></td>
+    	<td style="text-align:center;font-size:14px;padding-bottom:5px;"><a target="_blank" href="http://english.people.com.cn/90777/8032982.html"><img src="/mediafile/201211/28/F201211281448342291929669.jpg" width="185" height="110" alt="" /><br />World's weirdest baths you cannot imagine</a></td>
+    	<td style="text-align:center;font-size:14px;padding-bottom:5px;"><a href="http://english.people.com.cn/90777/8033206.html" target="_blank"><img src="/mediafile/201211/28/F201211281450551302821009.jpg" width="185" height="110" alt="" /><br />N. Korean’s real life through the lens</a></td>
+  	</tr>
+</table></span></p></div>
+            
+        </div>
+        <div class="wb_6 clear"><span><a href="mailto:enpeople@sina.com">Email</a>|<a href="#"  onclick="doPrint()">Print</a>|<a href="#liuyan">Comments</a><img src="/img/2011english/images/icon19.gif" onclick="AXzhz('AX')" style="cursor:pointer;" /></span><em>（Editor：王欣、王金雪）</em></div>
+        <div class="wb_7 clear" id="AX" style="display:none;">
+        	<h3>Increases the bookmark</h3>
+            <ul>
+            	<li><img src="/img/2011english/images/icon21.gif" alt="" /> <a href="http://twitter.com/home?status=British chancellor underpins tax hike in interim budget report http://english.people.com.cn/90777/8048371.html" target="_blank">twitter</a></li>
+                <li><img src="/img/2011english/images/icon22.gif" alt="" /> <a href="http://www.facebook.com/sharer.php?u=http://english.people.com.cn/90777/8048371.html&t=British chancellor underpins tax hike in interim budget report" target="_blank">facebook</a></li>
+                <li><img src="/img/2011english/images/icon20.gif" alt="" /> <a href="http://v.t.sina.com.cn/share/share.php?title=British chancellor underpins tax hike in interim budget report http://english.people.com.cn/90777/8048371.html" target="_blank">Sina Microblog</a></li>
+                <li><img src="/img/2011english/images/icon23.gif" alt="" /> <a href="http://digg.com/submit?phase=2&url=http://english.people.com.cn/90777/8048371.html&title=British chancellor underpins tax hike in interim budget report" target="_blank">digg</a></li>
+                <li><img src="/img/2011english/images/icon24.gif" alt="" /> <a href="http://www.google.com/bookmarks/mark?op=add&title=British chancellor underpins tax hike in interim budget report&bkmk=http://english.people.com.cn/90777/8048371.html" target="_blank">Google</a></li>
+                <li><img src="/img/2011english/images/icon25.gif" alt="" /> <a href="http://del.icio.us/post?&url=http://english.people.com.cn/90777/8048371.html&title=British chancellor underpins tax hike in interim budget report" target="_blank">Delicious</a></li>
+                <li><img src="/img/2011english/images/icon26.gif" alt="" /> <a href="http://buzz.yahoo.com/buzz?targetUrl=http://english.people.com.cn/90777/8048371.html&headline=British chancellor underpins tax hike in interim budget report&src=People's Daily Online" target="_blank">buzz</a></li>
+                <li><img src="/img/2011english/images/icon27.gif" alt="" /> <a href="http://friendfeed.com/share?url=http://english.people.com.cn/90777/8048371.html&title=British chancellor underpins tax hike in interim budget report - People's Daily Online" target="_blank">friendfeed</a></li>
+                <li><img src="/img/2011english/images/icon28.gif" alt="" /> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://english.people.com.cn/90777/8048371.html&title=British chancellor underpins tax hike in interim budget report&summary=&source=http://english.people.com.cn" target="_blank">Linkedin</a></li>
+                <li><img src="/img/2011english/images/icon29.gif" alt="" /> <a href="http://secure.diigo.com/post?url=http://english.people.com.cn/90777/8048371.html&title=British chancellor underpins tax hike in interim budget report - People's Daily Online" target="_blank">diigo</a></li>
+                <li><img src="/img/2011english/images/icon30.gif" alt="" /> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl%3Dhttp://english.people.com.cn/90777/8048371.html%26title%3DBritish chancellor underpins tax hike in interim budget report">reddit</a></li>
+                <li><img src="/img/2011english/images/icon31.gif" alt="" /> <a href="http://www.stumbleupon.com/submit?url=http://english.people.com.cn/90777/8048371.html&title=British chancellor underpins tax hike in interim budget report" target="_blank">stumbleupon</a></li>
+                <li><img src="/img/2011english/images/icon32.gif" alt="" /> <a href="javascript:void(0);" onclick="window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(document.location.href));return false;" title="">Qzone</a></li>
+                <li><img src="/img/2011english/images/icon32.gif" alt="" /> <a href="http://v.t.qq.com/share/share.php?title=British chancellor underpins tax hike in interim budget report http://english.people.com.cn/90777/8048371.html" target="_blank">QQ Microblog</a></li>
+            </ul>
+        </div>
+        <div class="wb_8 clear">
+       	  	<h2>Related Reading</h2>
+          	<ol class="p1_5 p1_10 clear"><li><a href="/90001/90777/90853/7207854.html" target=_blank>British chancellor confirms multi-billion-dollar loan offer to Ireland </a></li><li><a href="/90001/90777/90853/7088718.html" target=_blank>British chancellor issues warning to banking sector to lend more </a></li><li><a href="/90001/90777/90853/7018462.html" target=_blank>British chancellor sees budget deficit as &quot;great national challenge&quot;</a></li><li><a href="/90001/90778/90857/90860/6716826.html" target=_blank>China's tax hike targets &quot;liquor culture&quot;</a></li><li><a href="/90001/90778/90858/90864/6620749.html" target=_blank>Report: New York governor plans secret tax hike on rich </a></li></ol>
+      	</div>
+        <div class="wb_10 clear">
+   			<h2><span><a href=http://english.people.com.cn/ target=_blank>Hot News</a></span></h2>
+            <ol><li><a href='/90883/8047379.html' target=_blank>Why US meddles in Diaoyu Islands issue?</a></li>
+<li><a href='/90883/8047855.html' target=_blank>Beijing to offer 72-hour visa-free stay for foreign visitors in 2013</a></li>
+<li><a href='/90882/8047981.html' target=_blank>Scientists create apple-sized seedless watermelon ready for summer</a></li>
+<li><a href='/90882/8047965.html' target=_blank>Yet another official hit by online wristwatch scandal</a></li>
+<li><a href='/90778/8047670.html' target=_blank>Global economy to continue &quot;divergent&quot; performance in 2013: IIF</a></li>
+<li><a href='/90778/8047510.html' target=_blank>Report: China growth to speed up in 2013</a></li>
+<li><a href='/90782/8046046.html' target=_blank>Charming singer Christine Fan to hold solo concert in Taipei </a></li>
+<li><a href='/90782/8045958.html' target=_blank>Where memory lanes meet 21st century</a></li>
+</ol>
+        </div>
+        <div class="wb_9 clear">
+   			<h2><span>Leave your comment</span><em>0 comments</em></h2>
+           <form name="form1" method="post" action="http://posts.people.com.cn/bbs_new/app/src/main/?action=parse_publish&op=ins&bid=4838336&channel_id=90000&id=8048371&lang=english" target="_blank" >
+    <INPUT type=hidden name=pid value=0>
+   	  	  <ol id="liuyan">
+       	  	  	<li>Name <input type="text" name="yonghuming" id="yonghuming" /></li>
+           	  	<li><span><textarea name="content" id="content" cols="45" rows="5"></textarea></span><em><a href="JavaScript:goto();"><img src="/img/2011english/images/icon33.gif" alt="" /></a><br /><a href="http://posts.people.com.cn/bbs_new/app/src/main/?action=list&bid=4838336&channel_id=90000&id=8048371&lang=english" target="_blank"><img src="/img/2011english/images/icon34.gif" alt="" /></a></em></li>
+       	  	</ol>
+            </form>
+            <dl>
+            	
+            </dl>
+        </div>
+        <div class="wb_5 wb_11 clear"><a href="http://english.peopledaily.com.cn/" target="_blank"><img src="/img/2011english/images/icon35.gif" alt="" /></a>&nbsp;&nbsp;<a href="#dingtop"><img src="/img/2011english/images/icon37.gif" alt="" /></a></div>
+    </div>
+    <div class="d2_right">
+    	<h2 class="p1_2 p1_8 d2_4 clear"><span>Selections for you</span></h2>
+        <ol class="wb_12 clear"><li><a href="http://english.peopledaily.com.cn/90786/8047416.html" target=_blank><img src="/mediafile/201212/06/F201212060941591285929376.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90786/8047416.html" target=_blank>PLA Air Force in air combat training<br></a></li>
+<li><a href="http://english.peopledaily.com.cn/90786/8047619.html" target=_blank><img src="/mediafile/201212/06/F201212060944483161110158.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90786/8047619.html" target=_blank>Destroyer flotilla in confrontation assessment<br></a></li>
+<li><a href="http://english.people.com.cn/90777/8047395.html" target=_blank><img src="/mediafile/201212/06/F201212061017481491928891.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90777/8047395.html" target=_blank>Selected Reuters pictures of the year 2012 (II) <br></a></li>
+<li><a href="http://english.people.com.cn/202936/8047401.html" target=_blank><img src="/mediafile/201212/06/F201212060921342024230048.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/202936/8047401.html" target=_blank>Beauty of nature in 2012 <br></a></li>
+<li><a href="http://english.people.com.cn/202936/8047492.html" target=_blank><img src="/mediafile/201212/06/F201212060920071048495914.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/202936/8047492.html" target=_blank>Luxurious Bentley Mulsanne Mulliner<br></a></li>
+<li><a href="http://english.people.com.cn/102775/206448/index.html" target=_blank><img src="/mediafile/201212/05/F201212051702242968129853.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/102775/206448/index.html" target=_blank>E-commerce, a bright spot in China</a></li>
+<li><a href="http://english.peopledaily.com.cn/90782/8046356.html" target=_blank><img src="/mediafile/201212/05/F201212051639212151121255.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90782/8046356.html" target=_blank>8 must-eat foods for pregnancy</a></li>
+<li><a href="http://shifu.people.com.cn/viewthread.php?tid=18125" target=_blank><img src="/mediafile/201212/06/F201212060811421055129107.jpg" width="158" height="115"></a><br /><a href="http://shifu.people.com.cn/viewthread.php?tid=18125" target=_blank>Tree houses around the world</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>Most Popular</span></h2>
+        <div class="p3_9 d2_5 clear">
+        	<ul><!--1--><li><a href="/90882/8043982.html" target=_blank>Photos of China 30 years ago</a></li><!--2--><li><a href="/90782/8044893.html" title="Aircraft Carrier Style mirrors a great power in the new era" target=_blank>Aircraft Carrier Style mirrors a great …</a></li><!--3--><li><a href="/90785/8043961.html" title="Beautiful ‘China Dream’ requires hard work" target=_blank>Beautiful ‘China Dream’ requires hard w…</a></li><!--4--><li><a href="/90883/8044425.html" title="China opposes U.S. bill concerning Diaoyu Islands" target=_blank>China opposes U.S. bill concerning Diao…</a></li><!--5--><li><a href="/90786/8046427.html" title="Chinese fighter jet crashes in Shantou, Guangdong" target=_blank>Chinese fighter jet crashes in Shantou,…</a></li><!--6--><li><a href="/90786/8045783.html" title="Expert: China should develop larger aircraft carriers armed with new-concept weapons" target=_blank>Expert: China should develop larger air…</a></li><!--7--><li><a href="/90785/8045705.html" target=_blank>World also needs ‘Chinese Dream’</a></li><!--8--><li><a href="/90785/8046025.html" title="South China province pilots disclosing officials' properties" target=_blank>South China province pilots disclosing …</a></li><!--9--><li><a href="/90883/8047379.html" target=_blank>Why US meddles in Diaoyu Islands issue?</a></li><!--10--><li><a href="/90778/8047013.html" title="Japanese firms should quicken integration into Chinese society" target=_blank>Japanese firms should quicken integrati…</a></li></ul>
+        </div>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>Opinions</span></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90778/8048161.html' target=_blank>Old school ties, business opportunities?</a></li>
+<li><a href='/90782/8045901.html' target=_blank>Museums should not end up as 'vanity projects'</a></li>
+<li><a href='/90782/8046985.html' target=_blank>Miss World: charity is more of care and love</a></li>
+<li><a href='/90778/8045713.html' target=_blank>Economy stabilizing, but facing severe challenges </a></li>
+<li><a href='/90782/8044893.html' target=_blank>Aircraft Carrier Style mirrors a great power</a></li>
+<li><a href='/90778/8045742.html' target=_blank>Prejudice dents enterprises' overseas expansion</a></li>
+<li><a href='/90778/8044589.html' target=_blank>Innovation key to economy growth model in China</a></li>
+<li><a href='/90782/8044241.html' target=_blank>China's culture once influenced the world</a></li>
+<li><a href='/90882/8043221.html' target=_blank>Say no to ugliness appreciation</a></li>
+<li><a href='/90782/8044723.html' target=_blank>Promoting old-time inclusive TCM</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+		<div class="p1_12 d2_6 clear">
+        	<span><a href="http://www.ichacha.net/ppl.aspx" target="_blank"><img src="/img/2011english/images/icon15.gif" alt="" /></a></span>
+       	  <form target="_blank" action="http://www.ichacha.net/people.aspx" method="get"><p><input type="text" name="q" class="one" /> <input type="image" value="查词" src="/img/2011english/images/icon10.gif" /></p></form>
+        </div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>What’s happening in China</span></h2>
+        <p class="p1_9 clear"><a href="http://english.peopledaily.com.cn/202936/8047718.html" target=_blank><img src="/mediafile/201212/06/F201212060852151413223256.jpg" width="134" height="98"></a><a href="http://english.peopledaily.com.cn/202936/8047718.html" target=_blank>Solar yacht put into use in SE China <br></a>
+</p>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90882/8047946.html' target=_blank>China slips down on corruption perception ranking</a></li>
+<li><a href='/90882/8047909.html' target=_blank>China vows PM2.5 cut</a></li>
+<li><a href='/90882/8047976.html' target=_blank>72-hour landing visa</a></li>
+<li><a href='/90882/8047517.html' target=_blank>Int'l Volunteer Day marked in China </a></li>
+<li><a href='/90882/8047721.html' target=_blank>Cornea donors bring hope to others</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <!--<h2 class="p1_2 p1_8 d2_4 clear"><span>Chinese Military Observatory</span></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90786/8047587.html' target=_blank>Xi Jinping calls for powerful missile force</a></li>
+<li><a href='/90786/8047561.html' target=_blank>China, Kazakhstan to enhance military cooperation</a></li>
+<li><a href='/90786/8047529.html' target=_blank>Qi Jianguo leaves Beijing for Cuba to pay visit</a></li>
+<li><a href='/90786/8045783.html' target=_blank>Expert: China should develop larger aircraft carriers armed with new-concept weapons</a></li>
+<li><a href='/90786/8045960.html' target=_blank>Enhance mutual trust,share Asia-Pacific security</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p2_1 d2_8 clear"><span>PD Online Data</span><em></em></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/102759/205143/7920437.html' target=_blank>Ministry of Water Resources</a></li>
+<li><a href='/102759/205143/7920436.html' target=_blank>Ministry of Railways</a></li>
+<li><a href='/90785/7919887.html' target=_blank>People's Bank of China</a></li>
+<li><a href='/90785/7919849.html' target=_blank>Ministry of Health</a></li>
+<li><a href='/90785/7919694.html' target=_blank>Ministry of Culture</a></li>
+</ol>-->
+        <div class="d2_11 clear"><p><img src="/img/2011english/images/icon12.gif" alt="" />
+                 <form name="dateform" method="post" onsubmit="return false">
+          <select name="sday">
+              <option value="01">1</option>
+              <option value="02">2</option>
+              <option value="03">3</option>
+              <option value="04">4</option>
+              <option value="05">5</option>
+              <option value="06">6</option>
+              <option value="07">7</option>
+              <option value="08">8</option>
+              <option value="09">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+          </select>
+          <select name="smonth">
+              <option value="01">Jan</option>
+              <option value="02">Feb</option>
+              <option value="03">Mar</option>
+              <option value="04">Apr</option>
+              <option value="05">May</option>
+              <option value="06">Jun</option>
+              <option value="07">Jul</option>
+              <option value="08">Aug</option>
+              <option value="09">Sep</option>
+              <option value="10">Oct</option>
+              <option value="11">Nov</option>
+              <option value="12">Dec</option>
+            </select>
+          <select name="syear">
+              <option value="2007">2007年</option>
+			  <option value="2008">2008年</option>
+              <option value="2009">2009年</option>
+              <option value="2010">2010年</option>
+              <option value="2011">2011年</option>
+            </select><input type="button" value="go" onclick="go()" />
+           <script language="Javascript">
+  	{resetselect()}
+    </script>
+          </form></p>
+        </div>
+    </div>
+    <div class="clear"><img src="/img/2011english/images/lined2.gif" alt="" /></div>
+</div>
+<!--copyright-->
+<div id="copyright"><a href="/102840/7560415.html"  target="_blank">About Us</a>| <a href="/102840/7560413.html"  target="_blank">Contact Us</a>| <a href="/102840/7560418.html"  target="_blank">Site Map</a>| <a href="/102840/7560414.html"  target="_blank">Advertise on site</a>| <a href="/102840/7832549.html"  target="_blank">Job Offer</a><br>
+Copyright by People's Daily Online, All Rights Reserved 
+</div>
+<img src="http://58.68.146.44:8000/d.gif?id=8048371" width=0 height=0>
+<script src="/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://dict.bing.com.cn/cloudwidget/Scripts/Generated/BingTranslate_Hover_Phrase_Selection_ShowIcon.js"></script>
+<script type="text/javascript">
+BingCW.Init({
+   AppID:"http://english.peopledaily.com.cn/",
+   ContentArea:"p_content,p_title",
+   MachineTranslation:true,
+   WebDefinition:true
+})</script>
+</body>
+</html>
