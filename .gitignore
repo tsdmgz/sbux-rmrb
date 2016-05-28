@@ -8,6 +8,5 @@ _minted-topic-proposal/
 *.blg
 *.log
 *.run.xml
-*.bib
 *.out
 topic-proposal.pdf
