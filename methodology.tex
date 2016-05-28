@@ -1,15 +1,50 @@
 \chapter{Methodology}\label{sec:methodology}
 
 I will attempt to answer these questions using Bourdieu's framework of
-\emph{Habitus}. News articles and press releases, have been gathered for the
-study. These works will then be subject to content analysis, on the lookout for
-recurrent themes.
+\emph{Habitus}. Articles from People's Daily (English) have been gathered for
+this study. These articles will then be subject to content analysis, on the
+lookout for recurrent themes.
+
+People's Daily was selected because of its wide circulation in China, enjoying
+significant readership and wide reach across the population. Public officials
+and ministers have chosen to release official statements through this outlet.
+
+In gathering articles, a simple search with the term "Starbucks" within the
+\href{http://en.people.cn}{People's Daily
+website}\footnote{\url{http://en.people.cn}} was performed, returning 81
+articles, the earliest of which date back to August 2007. A small Python script
+\ref{appdx:grab-link} was written to programatically download all these matching
+articles. While all news articles since 2007 were downloaded for the dataset,
+analysis was intentionally limited to stories within January 2010 until May
+2016. Refining further, stories that did not happen within China's borders are
+not included in the analysis. A complete archive of all downloaded articles and
+this paper itself are available in my
+\href{https://github.com/tsdmgz/sbux-rmrb}{GitHub
+repository}\footnote{\url{https://github.com/tsdmgz/sbux-rmrb}}. Sample articles
+that were included and not included are in (TODO: appendix B?).
 
 \section{Analytical Framework}\label{subs:analyticf}
 
-Data sources include statistical studies of coffee drinkers in China,
-news articles from major outlets, and press releases from companies
-themselves. Thematic analysis was applied, looking for themes with regard to
-consumption patterns of patrons, location and placement of stores, 
+% Data sources include statistical studies of coffee drinkers in China,
+% news articles from major outlets, and press releases from companies
+% themselves. Thematic analysis was applied, looking for themes with regard to
+% consumption patterns of patrons, location and placement of stores, 
+
+\section{On the case of Starbucks}\label{subs:case-of-sbux}
+
+One may question, so why Starbucks? There are a number of competing coffee
+chains in China knowin that Starbucks was not the first of its kind in the
+Mainland.
+
+There is the popularity aspect. Yes, there are other coffee chains like UBC
+Coffee (TODO: TW based?), and Costa Coffee, but Starbucks is not known as yet
+another coffee chain, but it is rather known as a famous coffee chain. They are
+a place to be that sells coffee, rather than something that sells coffee that
+offers itself as a place to be.
+
+% for code see appendix of code, or see github/tsdmgz/rmrb-sbux
+% echo echo
+% "http://search.people.com.cn/language/search.do?pageNum="{1..9}"&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f="|sed
+% 's/\ /\n/g'|parallel -j9 wget {}
 
 % vim: textwidth=80 smartindent breakindent
