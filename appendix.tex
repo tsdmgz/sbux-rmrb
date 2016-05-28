@@ -1,6 +1,56 @@
 \appendix
 \chapter{article-grab-link.py}\label{appdx:grab-link}
 
-\inputminted{python}{data/script/article-grab-link.py}
+\inputminted[linenos]{python}{data/script/article-grab-link.py}
+
+\section{Usage}
+
+\subsection{Synopsis}
+
+article-grab-link.py -t PUBLICATION -f FILE
+
+\subsection{Description}
+
+Parses a downloaded copy of a search results page of a given FILE from
+PUBLICATION and returns links to articles in the given FILE.
+
+\subsection{Options}
+
+\begin{description}
+	\item [-t PUBLICATION] Use PUBLICATION in parsing a saved results page.
+	\item [-f FILE] Obtain links from FILE. Multiple input files are not
+	supported.
+\end{description}
+
+\subsection{Use case}
+
+In the process of grabbing the articles, a search is performed in People's Daily
+website which then returns a results page with the URL
+\begin{minted}[breaklines=true]{http}
+http://search.people.com.cn/language/english/getResult.jsp
+\end{minted}
+However, this is not the page we are looking for. The actual URL for the results
+page is at the bottom part, at the pagination links and looks like
+\begin{minted}[breaklines=true]{http}
+http://search.people.com.cn/language/search.do?pageNum=3&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=
+\end{minted}
+
+The URL for the results page is now known. As of writing, there are 9 pages in
+the results page. A command to download all the pages in the search results can
+now be constructed.
+% TODO: figure out how to unbreak this somehow
+\begin{minted}[breaklines=true]{bash}
+cd data/articles/peoples-daily/searchresults
+echo
+"http://search.people.com.cn/language/search.do?pageNum="{1..9}"&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f="
+| parallel -n1 -j9 wget -v
+\end{minted}
+With all pages from the search results downloaded, links to resulting articles
+can now be parsed.
+\begin{minted}[breaklines=true]{bash}
+cd articles
+find ../ -maxdepth 1 -type f|parallel ../../../script/article-grab-link.py -t rmrb -f {}|parallel -j30 wget -v {}
+\end{minted}
+All downloaded articles will be in the \mintinline{bash}{articles} folder.
 
 % vim: textwidth=80 smartindent breakindent
