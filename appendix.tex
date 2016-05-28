@@ -26,13 +26,14 @@ PUBLICATION and returns links to articles in the given FILE.
 
 In the process of grabbing the articles, a search is performed in People's Daily
 website which then returns a results page with the URL
-\begin{minted}[breaklines=true]{http}
+\begin{minted}[breaklines=true]{text}
 http://search.people.com.cn/language/english/getResult.jsp
 \end{minted}
 However, this is not the page we are looking for. The actual URL for the results
 page is at the bottom part, at the pagination links and looks like
-\begin{minted}[breaklines=true]{http}
-http://search.people.com.cn/language/search.do?pageNum=3&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=
+\begin{minted}[breaklines=true]{text}
+http://search.people.com.cn/language/search.do?pageNum=3&keyword=starbucks
+&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f=
 \end{minted}
 
 The URL for the results page is now known. As of writing, there are 9 pages in
@@ -41,9 +42,9 @@ now be constructed.
 % TODO: figure out how to unbreak this somehow
 \begin{minted}[breaklines=true]{bash}
 cd data/articles/peoples-daily/searchresults
-echo
-"http://search.people.com.cn/language/search.do?pageNum="{1..9}"&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f="
-| parallel -n1 -j9 wget -v
+echo "http://search.people.com.cn/language/search.do?pageNum="{1..9}
+"&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f="
+ | parallel -n1 -j9 wget -v
 \end{minted}
 With all pages from the search results downloaded, links to resulting articles
 can now be parsed.
@@ -51,6 +52,8 @@ can now be parsed.
 cd articles
 find ../ -maxdepth 1 -type f|parallel ../../../script/article-grab-link.py -t rmrb -f {}|parallel -j30 wget -v {}
 \end{minted}
-All downloaded articles will be in the \mintinline{bash}{articles} folder.
+All downloaded articles are downloaded in the current working directory. If the
+commands were followed, look in
+\mintinline{bash}{data/searchresults/peoples-daily/articles}.
 
 % vim: textwidth=80 smartindent breakindent
