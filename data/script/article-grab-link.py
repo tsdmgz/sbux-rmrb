@@ -4,7 +4,6 @@
 import argparse
 from bs4 import BeautifulSoup
 from bs4 import SoupStrainer
-import re
 
 parser = argparse.ArgumentParser(description="HTML file to use")
 parser.add_argument('-f', dest = 'file')
