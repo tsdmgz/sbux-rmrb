@@ -1,9 +1,9 @@
 topic:
-	-xelatex topic-proposal.tex
+	-xelatex -shell-escape topic-proposal.tex
 	-biber topic-proposal.bcf
-	-xelatex topic-proposal.tex
+	-xelatex -shell-escape topic-proposal.tex
 	-biber topic-proposal.bcf
-	xelatex topic-proposal.tex
+	xelatex -shell-escape topic-proposal.tex
 
 paper:
 	true
