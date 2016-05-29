@@ -1,13 +1,13 @@
 # Introduction
 
+**Warning: I do an occasional `git push --force`. Bad habit, I know, but keep
+that in mind when doing a `git clone`.**
+
 A horribly protracted undergrad thesis on Starbucks, China, and
 Bordieu's Habitus.
 
 With apologies to People's Daily and China Daily for hammering their
 servers a few times.
-
-**Warning: I do an occasional `git push --force`. Bad habit, I know, but keep
-that in mind when doing a `git clone`.**
 
 That's all I can say for now.
 
@@ -24,12 +24,12 @@ starters? For Windows...I don't know?
 
 ## Requires
 
-This setup assumes a standard texlive install under openSUSE.
+This setup assumes a relatively standard texlive install under openSUSE.
 
 * XeLaTeX
 * biber
 * make
-* packages
+* LaTeX packages
 	- geometry
 	- authblk
 	- fontspec
