@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2016-05-30T01:35:28.721857037</meta:creation-date><dc:date>2016-05-30T03:29:21.089589854</dc:date><meta:editing-duration>PT53M2S</meta:editing-duration><meta:editing-cycles>15</meta:editing-cycles><meta:generator>LibreOffice/5.1.3.1$Linux_X86_64 LibreOffice_project/10m0$Build-1</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="222" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2016-05-30T01:35:28.721857037</meta:creation-date><dc:date>2016-05-31T03:10:54.733704704</dc:date><meta:editing-duration>PT4H5M41S</meta:editing-duration><meta:editing-cycles>35</meta:editing-cycles><meta:generator>LibreOffice/5.1.3.1$Linux_X86_64 LibreOffice_project/10m0$Build-1</meta:generator><meta:document-statistic meta:table-count="2" meta:cell-count="261" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">32427</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">60028</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">70578</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
-      <config:config-item-map-entry config:name="Sheet1">
-       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">6</config:config-item>
+      <config:config-item-map-entry config:name="articles">
+       <config:config-item config:name="CursorPositionX" config:type="int">3</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">27</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">1</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">1</config:config-item>
-       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">3</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">1</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">26</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="related">
+       <config:config-item config:name="CursorPositionX" config:type="int">4</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">2</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">2</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">1</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">1</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">3</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">1</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
@@ -30,8 +47,8 @@
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1293</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">articles</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1533</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -56,6 +73,7 @@
    </config:config-item-map-indexed>
   </config:config-item-set>
   <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="SyntaxStringRef" config:type="short">7</config:config-item>
    <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
    <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
@@ -75,7 +93,7 @@
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
    <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterName" config:type="string">canon</config:config-item>
    <config:config-item-map-indexed config:name="ForbiddenCharacters">
     <config:config-item-map-entry>
      <config:config-item config:name="Language" config:type="string">en</config:config-item>
@@ -90,7 +108,7 @@
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
    <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">jAH+/2Nhbm9uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpjYW5vbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMArgAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9Y2Fub24Kb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkxldHRlcgAAEgBDT01QQVRfRFVQTEVYX01PREUOAERVUExFWF9VTktOT1dO</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
   </config:config-item-set>
@@ -166,6 +184,15 @@
   <style:style style:name="co7" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="156.7pt"/>
   </style:style>
+  <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="75.66pt"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="104.94pt"/>
+  </style:style>
+  <style:style style:name="co10" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="153.61pt"/>
+  </style:style>
   <style:style style:name="ro1" style:family="table-row">
    <style:table-row-properties style:row-height="14.94pt" fo:break-before="auto" style:use-optimal-row-height="false"/>
   </style:style>
@@ -173,25 +200,31 @@
    <style:table-row-properties style:row-height="12.81pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro3" style:family="table-row">
-   <style:table-row-properties style:row-height="23.95pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="35.04pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro4" style:family="table-row">
    <style:table-row-properties style:row-height="46.46pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro5" style:family="table-row">
-   <style:table-row-properties style:row-height="35.21pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="68.66pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro6" style:family="table-row">
-   <style:table-row-properties style:row-height="35.04pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
-  </style:style>
-  <style:style style:name="ro7" style:family="table-row">
    <style:table-row-properties style:row-height="23.84pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
-  <style:style style:name="ro8" style:family="table-row">
+  <style:style style:name="ro7" style:family="table-row">
    <style:table-row-properties style:row-height="46.26pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro8" style:family="table-row">
+   <style:table-row-properties style:row-height="79.85pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro9" style:family="table-row">
    <style:table-row-properties style:row-height="57.46pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro10" style:family="table-row">
+   <style:table-row-properties style:row-height="35.21pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro11" style:family="table-row">
+   <style:table-row-properties style:row-height="80.19pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
    <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
@@ -217,6 +250,9 @@
   <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N84">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
    <style:paragraph-properties fo:text-align="start" fo:margin-left="0pt"/>
+  </style:style>
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N84">
+   <style:table-cell-properties fo:wrap-option="wrap" style:vertical-align="middle"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties style:writing-mode="lr-tb"/>
@@ -261,7 +297,7 @@
      <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2016-05-30">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2016-05-31">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="01:21:42.470936451">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -274,7 +310,7 @@
  <office:body>
   <office:spreadsheet>
    <table:calculation-settings table:automatic-find-labels="false"/>
-   <table:table table:name="Sheet1" table:style-name="ta1">
+   <table:table table:name="articles" table:style-name="ta1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <table:table-column table:style-name="co1" table:default-cell-style-name="ce1"/>
     <table:table-column table:style-name="co2" table:default-cell-style-name="ce2"/>
@@ -337,11 +373,19 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Restaurant chews on value of free internet</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>McDonald’s is the latest chain to offer free in-premises WiFi to customers.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Having a chain to offer free WiFi seems to be a Big Thing to happen</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>China Daily</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1018"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Note difference in tone between China Daily version and People’s Daily version (6885721.html)</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -368,13 +412,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Days of Starbucks as giant counted, defiant competitor emerges</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Pacific Coffee has been acquired by China Resources Enterprise Ltd. With plans to expand to the mainland within three years.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>An acquisition of a competing company, and Starbucks has been specifically named by the article. It seems Starbucks has become the standard because of its market dominance.</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Global Times</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>7249226.html</text:p>
      </table:table-cell>
@@ -400,13 +449,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Starbucks raises coffee prices in China</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>First price hike in five years, prices increase between 1 and 2 RMB, attributed to labor, rawmats, log</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Considered newsworthy. A price hike of coffee</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Xinhua</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>7724518.html</text:p>
      </table:table-cell>
@@ -428,7 +482,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>7745001.html</text:p>
      </table:table-cell>
@@ -438,13 +492,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Starbucks China: Brewing up a success coffee story</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>A new president of Starbucks China has been named. Aggressive expansion plans is mentioned. Competing companies also mentioned.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Employee movement within a specific company as noticed by a news outlet means there is a specific value given to this company for their society</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>China Daily</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro5">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>7777457.html</text:p>
      </table:table-cell>
@@ -454,7 +513,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Starbucks wide awake to China market prospects</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Starbucks HQ expects China to become its second biggest market followed by the US. Sales are strong and is expected to grow accompanied with aggressive expansion. There are plans to open a farmer support center in Pu’er</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Strong sales is an indicator of acceptance by the people</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>China Daily</text:p>
      </table:table-cell>
@@ -463,26 +527,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>7777458.html</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce3" office:value-type="date" office:date-value="2012-04-03" calcext:value-type="date">
-      <text:p>2012-04-03</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Satrbucks wide awake to China market prospects (2)</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>China Daily</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>multipage story</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1017"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>7779002.html</text:p>
      </table:table-cell>
@@ -501,7 +546,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro3">
+    <table:table-row table:style-name="ro5">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>7900028.html</text:p>
      </table:table-cell>
@@ -511,7 +556,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Chinese prefer foreign brands</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Majority of most recognized brands in China are not Chinese. Apple tops the list with Nestle second, Starbucks Corp. coming in tenth place, no Chinese company is present in the top 10.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>There is a growing (or already) acceptance of foreign brands coming into China’s consumer space. These brands are not only products from the outside, but are also vehicles of culture.</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>China Daily</text:p>
      </table:table-cell>
@@ -520,7 +570,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>7967014.html</text:p>
      </table:table-cell>
@@ -536,7 +586,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>8006949.html</text:p>
      </table:table-cell>
@@ -548,7 +598,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1021"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>8056730.html</text:p>
      </table:table-cell>
@@ -558,13 +608,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Starbucks opens farmer support center in China</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Starbucks opens a farmer support center in Yunnan, Pu’er, aiming to provide technology transfer to farmers for better crop</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>A company reaching out to grassroots, imparting not just knowledge, but also a culture this company brings</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Xinhua</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>8086687.html</text:p>
      </table:table-cell>
@@ -583,7 +638,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>8445052.html</text:p>
      </table:table-cell>
@@ -599,7 +654,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro8">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>8484431.html</text:p>
      </table:table-cell>
@@ -609,13 +664,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Pricing bitterness as Pu’er coffee demands recognition</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>There is a pricing crisis with Pu’er’s coffe production, leaving Pu’er coffee at bargain prices. Noted also is a lack of marketing for their produce.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Major coffee brands are sourcing beans from Yunnan and they are buying at at aggressive prices with little profit for the farmers, according to the article. This seems to contrast with the farmer support center that Starbucks has set up in the area</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Xinhua</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro4">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>8588231.html</text:p>
      </table:table-cell>
@@ -625,9 +685,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Temple in China sets up first anti-terror squad</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>An anti-terrorist squad consisting of monks and security guards is founded.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Article mentions a Starbucks branch opened nearby the temple, generating controversy</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>see related/content_26610190.htm</text:p><text:p>Its placement being called a “cultural invasion”</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro8">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c102839-8954277.html</text:p>
      </table:table-cell>
@@ -643,7 +712,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c207616-8734572.html</text:p>
      </table:table-cell>
@@ -697,7 +766,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-8740034.html</text:p>
      </table:table-cell>
@@ -716,7 +785,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-8923455.html</text:p>
      </table:table-cell>
@@ -732,7 +801,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro10">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-8946887.html</text:p>
      </table:table-cell>
@@ -766,7 +835,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1021"/>
     </table:table-row>
-    <table:table-row table:style-name="ro4">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-8953537.html</text:p>
      </table:table-cell>
@@ -780,9 +849,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Xinhua</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1018"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Reported by correspondents situated in the US</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-8956173.html</text:p>
      </table:table-cell>
@@ -804,7 +876,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro4">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-8977155.html</text:p>
      </table:table-cell>
@@ -814,7 +886,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Former Kuomintang Leader’s Old Residence Turned into McDonald’s</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Chinag Ching-kuo’s former residence has been converted into a McDonald’s. A Starbucks branch opened two months ago in the same building.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Another Starbucks branch has been opened in a historical/cultural site and has generated controversy, again.</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>CRI Online</text:p>
      </table:table-cell>
@@ -823,7 +900,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-8978576.html</text:p>
      </table:table-cell>
@@ -849,7 +926,12 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Smoother, faster ride home for Spring Festival</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>2016’s Spring Festival rush has become easier with modernized trains, WiFi on board, and Starbucks coffee being served while en-route.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Aside from adopting new tech innovations, it is interesting to note that Starbucks coffee has been specifically mentioned, when a coach may also have other food and/or beverage products on board</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Xinhua</text:p>
      </table:table-cell>
@@ -858,7 +940,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro3">
+    <table:table-row table:style-name="ro8">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-9009183.html</text:p>
      </table:table-cell>
@@ -868,13 +950,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Foreign firms ‘still buoyant about China’</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>The Chinese government is encouraging more FDI into the country.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Not only changes in economics, but side effects of firms coming in involve technology transfer as in the case of Didi Kuaidi mimicking Uber with much success to incoming companies being as vehicles of other cultures into Chinese society.</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>China Daily</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-9009185.html</text:p>
      </table:table-cell>
@@ -884,13 +971,19 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Rags to riches saga underlines China’s transformation</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>May not be included in dataset but is tangential</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>China Daily</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1018"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Again, “Western” is a term being used to describe something advanced. Connotates something advanced and progressive</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro3">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90000-9013325.html</text:p>
      </table:table-cell>
@@ -900,9 +993,19 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Backfired Chinese style in fashion</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Lunar New Year edition of designer and high-end products for the Chinese market was panned by the Chinese themselves.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Multinational brands are capitalizing on the Lunar New Year season by introducing special products for the occasion.</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Trying to fit in too hard? They want them ‘as is’, as their appeal to the Chinese market seems to be on their existing style.</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro8">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90777-8953633.html</text:p>
      </table:table-cell>
@@ -918,7 +1021,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90778-8729409.html</text:p>
      </table:table-cell>
@@ -937,7 +1040,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90778-8820172.html</text:p>
      </table:table-cell>
@@ -953,7 +1056,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90778-8820584.html</text:p>
      </table:table-cell>
@@ -969,7 +1072,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90778-8865832.html</text:p>
      </table:table-cell>
@@ -985,7 +1088,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90778-8992986.html</text:p>
      </table:table-cell>
@@ -1004,7 +1107,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90778-9003368.html</text:p>
      </table:table-cell>
@@ -1020,7 +1123,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90778-9035474.html</text:p>
      </table:table-cell>
@@ -1036,7 +1139,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90780-8784830.html</text:p>
      </table:table-cell>
@@ -1055,7 +1158,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro8">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90882-8754887.html</text:p>
      </table:table-cell>
@@ -1077,7 +1180,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c90882-8878813.html</text:p>
      </table:table-cell>
@@ -1099,7 +1202,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c98649-8755326.html</text:p>
      </table:table-cell>
@@ -1115,7 +1218,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro3">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>c98649-8939103.html</text:p>
      </table:table-cell>
@@ -1143,7 +1246,63 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1021"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2" table:number-rows-repeated="1048525">
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="1048526">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="related" table:style-name="ta1">
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co9" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co10" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co2" table:number-columns-repeated="1019" table:default-cell-style-name="ce1"/>
+    <table:table-row table:style-name="ro10">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Filename</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Date</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Title</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Summary</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Why is this article included</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Syndicated from</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Remarks</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1017"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro11">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>7894636.html</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce5" office:value-type="date" office:date-value="2012-08-01" calcext:value-type="date">
+      <text:p>2012-08-01</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Why China’s female stars are favored by Hollywood?</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>&gt; They should really learn from the professionalism and dedication of Hollywood stars,&quot; Wu said.</text:p><text:p>This is very telling, possible outlook of looking to the West (possibly US only) as a model</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>RMRB Overseas edition</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1018"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="1048573">
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
