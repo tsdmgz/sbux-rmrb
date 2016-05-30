@@ -13,15 +13,15 @@ In gathering articles, a simple search with the term "Starbucks" within the
 \href{http://en.people.cn}{People's Daily
 website}\footnote{\url{http://en.people.cn}} was performed, returning 81
 articles, the earliest of which date back to August 2007. A small Python script
-\ref{appdx:grab-link} was written to programatically download all these matching
-articles. While all news articles since 2007 were downloaded for the dataset,
-analysis was intentionally limited to stories within January 2010 until May
-2016. Refining further, stories that did not happen within China's borders are
-not included in the analysis. A complete archive of all downloaded articles and
-this paper itself are available in my
-\href{https://github.com/tsdmgz/sbux-rmrb}{GitHub
+(see appendix \autoref{appdx:grab-link}) was written to programatically download
+all matching articles. While all news articles presented in the search results
+dating back from 2007 were downloaded for the dataset, analysis was
+intentionally limited to stories within January 2010 until May 2016. Refining
+further, stories that did not happen within China's borders are not included in
+the analysis. A complete archive of all downloaded articles and this paper
+itself are available in a \href{https://github.com/tsdmgz/sbux-rmrb}{GitHub
 repository}\footnote{\url{https://github.com/tsdmgz/sbux-rmrb}}. Sample articles
-that were included and not included are in (TODO: appendix B?).
+that were included and not included can be found in appendix \ref{TODO: REFME}.
 
 \section{Analytical Framework}\label{subs:analyticf}
 
@@ -36,15 +36,11 @@ One may question, so why Starbucks? There are a number of competing coffee
 chains in China knowing that Starbucks was not the first of its kind in the
 Mainland.
 
-There is the popularity aspect. Yes, there are other coffee chains like UBC
-Coffee (TODO: TW based?), and Costa Coffee, but Starbucks is not known as yet
-another coffee chain, but it is rather known as a famous coffee chain. They are
-a place to be that sells coffee, rather than something that sells coffee that
-offers itself as a place to be.
-
-% for code see appendix of code, or see github/tsdmgz/rmrb-sbux
-% echo echo
-% "http://search.people.com.cn/language/search.do?pageNum="{1..9}"&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f="|sed
-% 's/\ /\n/g'|parallel -j9 wget {}
+There is the popularity aspect. Yes, there are other coffee chains like
+Taiwanese-based UBC
+Coffee \autocite{CITEME}, and Costa Coffee from Hong Kong \autocite{CITEME}, but
+Starbucks is not known as yet another coffee chain, but it is rather known as a
+famous coffee chain. They are a place to be that sells coffee, rather than
+something that sells coffee that offers itself as a place to be.
 
 % vim: textwidth=80 smartindent breakindent
