@@ -1,0 +1,491 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="utf-8" />
+<meta name="robots" content="all" />
+<meta name="copyright" content="" />
+<meta name="description" content="WhileyoungwomenmaybelessinterestedindigitalproductssuchasApple's,theyareasconcerned" />
+<meta name="keywords" content="" />
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="F_90778">
+<meta name="contentid" content="F_7900028">
+<meta name="publishdate" content="2012-08-06">
+<meta name="author" content="F_100585">
+<meta name="source" content="China Daily">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>Chinese prefer foreign brands (2) - People's Daily Online</title>
+<link href="/img/2011english/page.css" type="text/css" rel="stylesheet" media="all" />
+<script src="/css/searchforeign.js"></script>
+<script src="/img/2011english/list.js" language="javascript" type="text/javascript"></script>
+<script src="/css/2006english/content.js" language="javascript" type="text/javascript"></script>
+<script src="/img/2011english/swfobject.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function AXzhz(hideme)
+{
+var AX=document.all(hideme); //声明一个变量
+AX.style.display=AX.style.display=="none"?"":"none"; //判断是否隐藏
+}
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="/css/2006english/content.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function goto(){
+if (document.form1.content.value==null || document.form1.content.value=="" ) {
+		alert("Please write your message!");
+		return;
+	}
+	 else {
+		document.form1.submit();
+		}
+}
+function chakan()
+{
+window.open(url="http://posts.people.com.cn/bbs_new/app/src/main/?action=list&bid=4695685&channel_id=90000&id=7900028&lang=english");
+}
+-->
+</script>
+<script language="javascript" type="text/jscript">
+function go() {
+
+        var today = new Date();
+        var bday = new Date(2006,04, 27);
+
+        tf=document.dateform;
+        vd=tf.sday.options[tf.sday.selectedIndex].value;
+        vm=tf.smonth.options[tf.smonth.selectedIndex].value;
+vy=tf.syear.options[tf.syear.selectedIndex].value;
+        var aday = new Date(vy ,vm-1, vd);
+		if((vy>2007)){ document.location="http://english.peopledaily.com.cn/review/"+vy+vm+vd+".html";}
+ else if (((vd<16)&&(vm==10)&&(vy==2007))||((vy==2007)&&(vm<10))){ window.alert("回顾请从2007年10月16日开始");}
+ 
+ else    {
+        document.location="http://english.peopledaily.com.cn/review/"+vy+vm+vd+".html";}
+}
+function resetselect () {
+	var mydate = new Date();
+    var myyear = mydate.getFullYear();
+    var mymonth = mydate.getMonth()+1;
+	var mytoday = mydate.getDate();
+	if(new String(mymonth).length==1)mymonth="0"+new String(mymonth);
+	if(new String(mytoday).length==1)mytoday="0"+new String(mytoday);
+	document.dateform.syear.value=myyear;
+    document.dateform.smonth.value=mymonth;
+    document.dateform.sday.value=mytoday;
+}
+</script>
+<!--<script type='text/javascript' src='http://yousheng.people.com.cn/IVSWebSite/js/ivs_syn.js' >
+</script>
+<script type='text/javascript'> 
+    var ivs_speed = 0; 
+    var ivs_gender =15;
+    var ivs_iscssml =0;
+    var ivs_playerid =2;
+    var ivs_playertype =0;
+    ivs_speak();
+</script>-->
+</head>
+<body>
+<!--ad-->
+<div class="width980 ad01 clear"><script type="text/javascript">
+var isIE = (document.all) ? true : false;
+
+var $ = function (id) {
+	return "string" == typeof id ? document.getElementById(id) : id;
+};
+
+var Class = {
+	create: function() {
+		return function() { this.initialize.apply(this, arguments); }
+	}
+}
+
+var Extend = function(destination, source) {
+	for (var property in source) {
+		destination[property] = source[property];
+	}
+}
+
+var Bind = function(object, fun) {
+	return function() {
+		return fun.apply(object, arguments);
+	}
+}
+
+var Each = function(list, fun){
+	for (var i = 0, len = list.length; i < len; i++) { fun(list[i], i); }
+};
+
+
+//ie only
+var RevealTrans = Class.create();
+RevealTrans.prototype = {
+  initialize: function(container, options) {
+	this._img = document.createElement("img");
+	this._a = document.createElement("a");
+	
+	this._timer = null;//计时器
+	this.Index = 0;//显示索引
+	this._onIndex = -1;//当前索引
+	
+	this.SetOptions(options);
+	
+	this.Auto = !!this.options.Auto;
+	this.Pause = Math.abs(this.options.Pause);
+	this.Duration = Math.abs(this.options.Duration);
+	this.Transition = parseInt(this.options.Transition);
+	this.List = this.options.List;
+	this.onShow = this.options.onShow;
+	
+	//初始化显示区域
+	this._img.style.visibility = "hidden";//第一次变换时不显示红x图
+	this._img.style.width = this._img.style.height = "100%"; this._img.style.border = 0;
+	this._img.onmouseover = Bind(this, this.Stop);
+	this._img.onmouseout = Bind(this, this.Start);
+	isIE && (this._img.style.filter = "revealTrans()");
+	
+	this._a.target = "_blank";
+	
+	$(container).appendChild(this._a).appendChild(this._img);
+  },
+  //设置默认属性
+  SetOptions: function(options) {
+	this.options = {//默认值
+		Auto:		true,//是否自动切换
+		Pause:		5000,//停顿时间(微妙)
+		Duration:	1,//变换持续时间(秒)
+		Transition:	23,//变换效果(23为随机)
+		List:		[],//数据集合,如果这里不设置可以用Add方法添加
+		onShow:		function(){}//变换时执行
+	};
+	Extend(this.options, options || {});
+  },
+  Start: function() {
+	clearTimeout(this._timer);
+	//如果没有数据就返回
+	if(!this.List.length) return;
+	//修正Index
+	if(this.Index < 0 || this.Index >= this.List.length){ this.Index = 0; }
+	//如果当前索引不是显示索引就设置显示
+	if(this._onIndex != this.Index){ this._onIndex = this.Index; this.Show(this.List[this.Index]); }
+	//如果要自动切换
+	if(this.Auto){
+		this._timer = setTimeout(Bind(this, function(){ this.Index++; this.Start(); }), this.Duration * 1000 +   this.Pause);
+	}
+  },
+  //显示
+  Show: function(list) {
+	if(isIE){
+		//设置变换参数
+		with(this._img.filters.revealTrans){
+			Transition = this.Transition; Duration = this.Duration; apply(); play();
+		}
+	}
+	this._img.style.visibility = "";
+	//设置图片属性
+	this._img.src = list.img; this._img.alt = list.text;
+	//设置链接
+	!!list["url"] ? (this._a.href = list["url"]) : this._a.removeAttribute("href");
+	//附加函数
+	this.onShow();
+  },
+  //添加变换对象
+  Add: function(sIimg, sText, sUrl) {
+	this.List.push({ img: sIimg, text: sText, url: sUrl });
+  },
+  //停止
+  Stop: function() {
+	clearTimeout(this._timer);
+  }
+};
+
+
+</script>
+<style type="text/css">
+.container{
+	width:980px;
+	height:80px;
+	border:0;
+	position:relative;
+        overflow:hidden;
+}
+
+
+</style>
+<div id="idShow" class="container"></div>
+<script>
+var r = new RevealTrans("idShow");
+//添加变换对象
+
+r.Add('/mediafile/201207/11/F201207111509358128132852.jpg', ' ', '  http://english.people.com.cn/102775/205557/index.html');
+r.Start();
+
+r.Add('/mediafile/201204/16/F201204161541533265025480.jpg', ' ', '  http://english.people.com.cn/102775/100668/204459/index.html');
+r.Start();
+
+r.Add('/mediafile/201112/31/F201112311327216291559115.jpg', ' ', '  http://english.people.com.cn/102775/203908/index.html');
+r.Start();
+
+r.Add('/mediafile/201005/17/F201005170803181194618522.jpg', ' ', '  http://en.ynta.gov.cn/default.aspx');
+r.Start();
+
+</script></div>
+<!--nav-->
+<div class="nav01 clear">
+	<div class="width980 clear">
+    	<div class="nav01_left"><a href="http://english.peopledaily.com.cn/" target="_blank"><img src="/img/2011english/images/logo.gif" alt="" /></a></div>
+        <div class="nav01_right">
+        	<p class="one"><span><a style="cursor:hand;" onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://english.peopledaily.com.cn/');" href="#">Set as Homepage</a>|<a href="http://shifu.people.com.cn/register.php" target="_blank">Register</a>|<a href="http://shifu.people.com.cn/logging.php?action=login" target="_blank">Sign In</a></span><em><a href="http://www.people.com.cn/" target="_blank">Chinese</a>|<a href="http://www.people.com.cn/BIG5/" target="_blank">Big 5</a>|<a href="http://french.peopledaily.com.cn/" target="_blank">French</a>|<a href="http://russian.people.com.cn/" target="_blank">Russian</a>|<a href="http://spanish.peopledaily.com.cn/" target="_blank">Spanish</a>|<a href="http://j.people.com.cn/" target="_blank">Japanese</a>|<a href="http://arabic.people.com.cn/" target="_blank">Arabic</a>|<a href="http://kr.people.com.cn/" target="_blank">Korean</a></em></p>
+            <p class="two"><span><a href="/102775/index.html" target="_blank">Special Coverage</a>|<a href="/102759/index.html" target="_blank">PD Online Database</a></span><em><a href="http://weibo.com/2044859165" target="_blank"><img src="/img/2011english/images/icon01.gif" alt="" />Sina Microblog</a><a href="http://t.qq.com/invite/" target="_blank"><img src="/img/2011english/images/icon02.gif" alt="" />Tencent Microblog</a><a href="mailto:enpeople@sina.com" target="_blank"><img src="/img/2011english/images/icon03.gif" alt="" />Feedback</a><a href="http://www.people.com.cn/rss/opml_en.xml" target="_blank"><img src="/img/2011english/images/icon04.gif" alt="" />RSS</a></em></p>
+        </div>
+  	</div>
+</div>
+<div class="width980 nav02 clear">
+	<div><form action="http://search.people.com.cn/rmw/GB/foreignsearch/languagesearch.jsp" name="MLSearch" method="post" onSubmit="if(getParameter_DJ(document.MLSearch)==false) return false;">
+<input type="hidden" name="language" value="2"/>
+<input type="hidden" name="sitename" value="english"/>
+<input type="hidden" name="XMLLIST">&nbsp;<img src="/img/2011english/images/icon06.gif" alt="" />&nbsp;<input type="text" name="names" id="names" class="one" value="" />&nbsp;<input type="image" name="button" id="button" value="search" src="/img/2011english/images/icon05.gif" /></form></div>
+    <p><a href="/102842/index.html" target="_blank" class="one">News</a><a href="/90780/index.html" target="_blank">Opinions</a><a href="/90786/index.html" target="_blank">China Military</a><a href="/90883/index.html" target="_blank">Foreign Affairs</a><a href="/90778/index.html" target="_blank">China Business</a><a href="/90782/index.html" target="_blank">Life&Culture</a><a href="http://shifu.people.com.cn/index.php" target="_blank">Forum</a></p>
+</div>
+<!--new-->
+<div class="width978 news clear">
+	<div class="news_left">
+    	<b><a href="/102842/index.html" target="_blank">Latest News:</a>&nbsp;&nbsp;</b>
+        <div>
+        	<ul id="listmar"><li><a href='/90778/7900085.html' target=_blank>Mascot maker feels pinch of rising labor costs</a></li>
+<li><a href='/90778/7900082.html' target=_blank>'No debt worries' in Changsha stimulus: official</a></li>
+<li><a href='/90778/7900069.html' target=_blank>Back to business</a></li>
+<li><a href='/90778/7900055.html' target=_blank>Fortune squandered without recycling</a></li>
+<li><a href='/90778/7900028.html' target=_blank>Chinese prefer foreign brands</a></li>
+<li><a href='/90777/7900006.html' target=_blank>U.S. Mars rover Curiosity touches down in Red Planet</a></li>
+<li><a href='/90777/7900005.html' target=_blank>Mars rover Curiosity embodiment of advancement in probe technologies</a></li>
+<li><a href='/90777/7900004.html' target=_blank>Backgrounder: Basic information about NASA's Mars rover Curiosity</a></li>
+<li><a href='/90777/7900003.html' target=_blank>Backgrounder: NASA's past Mars exploration missions</a></li>
+<li><a href='/90777/7899860.html' target=_blank>Israel fears potential Syrian Islamist attacks</a></li>
+
+</ul>
+        </div>
+    </div>
+    <div class="news_right"><div class="tianqi_right">Beijing&nbsp;&nbsp;&nbsp;Sunny/Cloudy&nbsp;&nbsp;&nbsp;<span style="color:#c00;">&nbsp;32&nbsp;/&nbsp;23&nbsp;℃</span>&nbsp;&nbsp;<a href="/90001/98751/index.html" target="_blank"><span style="color:#000;">City&nbsp;Forecast</span></a></div></div></div>
+    <script type="text/javascript">
+	<!--   
+	new simpleScroll("listmar",25,10,1);   
+	-->
+    </script>
+</div>
+<!--d2-->
+<div class="width980 d2_content clearfix clear">
+	<div class="clear"><img src="/img/2011english/images/lined2.gif" alt="" /></div>
+  	<div class="d2_left" id="dingtop">
+   		<h2 class="p2_1 d2_1 clear"><span><a href="http://english.peopledaily.com.cn/" target="_blank">English</a>&gt;&gt;<a href="/90778/index.html">China Business</a></span><em></em></h2>
+      	<div id="ivs_title"><h1 class="wb_1 clear"><span id="p_title">Chinese prefer foreign brands (2)</span></h1></div>
+        <h3 class="wb_2 clear">By Shi&nbsp;Jing&nbsp; (<a href="http://www.chinadaily.com.cn/cndy/2011-08/25/index1.html">China Daily</a>)</h3>
+        <h3 class="wb_3 clear"><span id="p_publishtime">14:45, August 06, 2012</span> <img src="/img/2011english/images/icon16.gif" alt="" /> <a href="#" onClick="return doZoom(16)"><img src="/img/2011english/images/icon17.gif" alt="" /></a> <a href="#" onClick="return doZoom(14)"><img src="/img/2011english/images/icon18.gif" alt="" /></a></h3>
+        <h4 id='ivs_player' style="text-align:center;padding-top:10px;"></h4>
+        <div class="wb_4 clear">
+        	
+            <div id="ivs_content"><p id="zoom"><span id="p_content">While young women may be less interested in digital products such as Apple's, they are as concerned about brand names while shopping for clothes or handbags. Huang Yingwen, 24, a public relations specialist working at a Beijing PR company, finds most of her personal belongings in the closet are Western brands such as Marc by Marc Jacobs or H&amp;M.<br><br>&quot;Actually, the product quality of some Chinese domestic brands is as good. But their design and marketing are always flawed. The patterns and the after-sales services always let me down,&quot; sighed Huang.<br><br>Gao Aidai, 22, a researcher at a Shanghai-based information technology firm, also stressed &quot;quality&quot; when asked for the reason for her preference for Western or Japanese brands.<br><br>&quot;Chinese brands can easily fall into the trap of being a copycat due to a lack of their own ideas or creativity, as I understand. But that does not exert as much influence as the quality issue. I seldom buy any domestically produced food or dairy products nowadays due to health concerns,&quot; she said.<br><br>&quot;The Chinese people remember the quality issues which they experienced until the 80s with Chinese products. This often resulted in a credibility issue for Chinese brands vis-a-vis the consumers in their own domestic market,&quot; said Pascal Armoudom, a partner with A.T. Kearney China management consultants in charge of consumer, luxury and retail for Greater China.<br><br>Explaining the success of these international brands, Armoudom said that it is largely because &quot;they have accumulated decades of experience in building image and value&quot;.<br><br>&quot;For example, the difference between value perception (the sum of functional and emotional benefits that a brand can deliver in a consumer's mind) and price perception (how much is paid to buy a brand relative to comparable brands) is being taught in every Western university,&quot; said Armoudom.<br><br>&quot;As a consequence, companies like Apple, Nestle, P&amp;G and obviously the luxury players have today a 360-degree approach to brand value building: They continuously invest in product design and innovation. They spend a vast amount of time in defining the brand by 'story-telling' (i.e. the overall story which will make consumers buy the brand beyond product and price, also regarding emotional aspects), and on in-store experience, etc,&quot; he said.<br><br>But the homegrown Chinese brands should not be disheartened about their future.<br><br>&quot;Although facing the challenges above, Chinese brands have been working hard to turn this around since the year 2000. They know that the time for delivering mass production at optimal cost as a guarantee for success is over,&quot; said Armoudom.<br><center><a href="/90778/7900028.html" class="abl2">【1】 </a><a href="/102774/7900030.html" class="abl2">【2】 </a></center><br><center><table border="0" align="center" width="40%">  <tr><td width="50%" align="center"><a href="/90778/7900028.html"><img src="/img/2007english/Previous.jpg" border="0"></a></td></tr></table></center></span></p></div>
+            
+        </div>
+        <div class="wb_6 clear"><span><a href="mailto:enpeople@sina.com">Email</a>|<a href="#"  onclick="doPrint()">Print</a>|<a href="#liuyan">Comments</a><img src="/img/2011english/images/icon19.gif" onclick="AXzhz('AX')" style="cursor:pointer;" /></span><em>（Editor：李倩、厉振羽）</em></div>
+        <div class="wb_7 clear" id="AX" style="display:none;">
+        	<h3>Increases the bookmark</h3>
+            <ul>
+            	<li><img src="/img/2011english/images/icon21.gif" alt="" /> <a href="http://twitter.com/home?status=Chinese prefer foreign brands (2) http://english.people.com.cn/102774/7900030.html" target="_blank">twitter</a></li>
+                <li><img src="/img/2011english/images/icon22.gif" alt="" /> <a href="http://www.facebook.com/sharer.php?u=http://english.people.com.cn/102774/7900030.html&t=Chinese prefer foreign brands (2)" target="_blank">facebook</a></li>
+                <li><img src="/img/2011english/images/icon20.gif" alt="" /> <a href="http://v.t.sina.com.cn/share/share.php?title=Chinese prefer foreign brands (2) http://english.people.com.cn/102774/7900030.html" target="_blank">Sina Microblog</a></li>
+                <li><img src="/img/2011english/images/icon23.gif" alt="" /> <a href="http://digg.com/submit?phase=2&url=http://english.people.com.cn/102774/7900030.html&title=Chinese prefer foreign brands (2)" target="_blank">digg</a></li>
+                <li><img src="/img/2011english/images/icon24.gif" alt="" /> <a href="http://www.google.com/bookmarks/mark?op=add&title=Chinese prefer foreign brands (2)&bkmk=http://english.people.com.cn/102774/7900030.html" target="_blank">Google</a></li>
+                <li><img src="/img/2011english/images/icon25.gif" alt="" /> <a href="http://del.icio.us/post?&url=http://english.people.com.cn/102774/7900030.html&title=Chinese prefer foreign brands (2)" target="_blank">Delicious</a></li>
+                <li><img src="/img/2011english/images/icon26.gif" alt="" /> <a href="http://buzz.yahoo.com/buzz?targetUrl=http://english.people.com.cn/102774/7900030.html&headline=Chinese prefer foreign brands (2)&src=People's Daily Online" target="_blank">buzz</a></li>
+                <li><img src="/img/2011english/images/icon27.gif" alt="" /> <a href="http://friendfeed.com/share?url=http://english.people.com.cn/102774/7900030.html&title=Chinese prefer foreign brands (2) - People's Daily Online" target="_blank">friendfeed</a></li>
+                <li><img src="/img/2011english/images/icon28.gif" alt="" /> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://english.people.com.cn/102774/7900030.html&title=Chinese prefer foreign brands (2)&summary=&source=http://english.people.com.cn" target="_blank">Linkedin</a></li>
+                <li><img src="/img/2011english/images/icon29.gif" alt="" /> <a href="http://secure.diigo.com/post?url=http://english.people.com.cn/102774/7900030.html&title=Chinese prefer foreign brands (2) - People's Daily Online" target="_blank">diigo</a></li>
+                <li><img src="/img/2011english/images/icon30.gif" alt="" /> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl%3Dhttp://english.people.com.cn/102774/7900030.html%26title%3DChinese prefer foreign brands (2)">reddit</a></li>
+                <li><img src="/img/2011english/images/icon31.gif" alt="" /> <a href="http://www.stumbleupon.com/submit?url=http://english.people.com.cn/102774/7900030.html&title=Chinese prefer foreign brands (2)" target="_blank">stumbleupon</a></li>
+                <li><img src="/img/2011english/images/icon32.gif" alt="" /> <a href="javascript:void(0);" onclick="window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(document.location.href));return false;" title="">Qzone</a></li>
+                <li><img src="/img/2011english/images/icon32.gif" alt="" /> <a href="http://v.t.qq.com/share/share.php?title=Chinese prefer foreign brands (2) http://english.people.com.cn/102774/7900030.html" target="_blank">QQ Microblog</a></li>
+            </ul>
+        </div>
+        <div class="wb_8 clear">
+       	  	<h2>Related Reading</h2>
+          	
+      	</div>
+        <div class="wb_10 clear">
+   			<h2><span><a href=http://english.people.com.cn/ target=_blank>Hot News</a></span></h2>
+            <ol><li><a href='/90883/7899133.html' target=_blank>Is China an irresponsible friend of Africa?</a></li>
+<li><a href='/90785/7899392.html' target=_blank>South China Sea issue should be resolved by concerned parties</a></li>
+<li><a href='/90882/7899127.html' target=_blank>Haikui approaching China's eastern coast</a></li>
+<li><a href='/90882/7899053.html' target=_blank>79 dead in Beijing devastating rainstorm</a></li>
+<li><a href='/90778/7899102.html' target=_blank>Central bank to strengthen monetary policy fine-tuning</a></li>
+<li><a href='/90778/7899330.html' target=_blank>US launches two trade remedy actions against China</a></li>
+<li><a href='/90782/7897786.html' target=_blank>Life tips: Sweet drinks may cause seven diseases (No.4)</a></li>
+<li><a href='/90782/7899514.html' target=_blank>Kunqu Opera in the Olympic limelight in London</a></li>
+</ol>
+        </div>
+        <div class="wb_9 clear">
+   			<h2><span>Leave your comment</span><em>0 comments</em></h2>
+           <form name="form1" method="post" action="http://posts.people.com.cn/bbs_new/app/src/main/?action=parse_publish&op=ins&bid=4695685&channel_id=90000&id=7900028&lang=english" target="_blank" >
+    <INPUT type=hidden name=pid value=0>
+   	  	  <ol id="liuyan">
+       	  	  	<li>Name <input type="text" name="yonghuming" id="yonghuming" /></li>
+           	  	<li><span><textarea name="content" id="content" cols="45" rows="5"></textarea></span><em><a href="JavaScript:goto();"><img src="/img/2011english/images/icon33.gif" alt="" /></a><br /><a href="http://posts.people.com.cn/bbs_new/app/src/main/?action=list&bid=4695685&channel_id=90000&id=7900028&lang=english" target="_blank"><img src="/img/2011english/images/icon34.gif" alt="" /></a></em></li>
+       	  	</ol>
+            </form>
+            <dl>
+            	
+            </dl>
+        </div>
+        <div class="wb_5 wb_11 clear"><a href="http://english.peopledaily.com.cn/" target="_blank"><img src="/img/2011english/images/icon35.gif" alt="" /></a>&nbsp;&nbsp;<a href="#dingtop"><img src="/img/2011english/images/icon37.gif" alt="" /></a></div>
+    </div>
+    <div class="d2_right">
+    	<h2 class="p1_2 p1_8 d2_4 clear"><span>Selections for you</span></h2>
+        <ol class="wb_12 clear"><li><a href="http://english.people.com.cn/90786/7899048.html" target=_blank><img src="/mediafile/201208/06/F201208060823201516846119.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90786/7899048.html" target=_blank>Chinese navy ship visits Bulgaria </a></li>
+<li><a href="http://english.people.com.cn/90777/7899628.html" target=_blank><img src="/mediafile/201208/06/F201208061437142119919473.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90777/7899628.html" target=_blank>Heavy downpours batter Pakistan's Lahore</a></li>
+<li><a href="http://english.people.com.cn/90778/7899330.html" target=_blank><img src="/mediafile/201208/06/F201208060933108411193604.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90778/7899330.html" target=_blank>US launches two trade remedy actions against China</a></li>
+<li><a href="http://english.peopledaily.com.cn/90782/7899514.html" target=_blank><img src="/mediafile/201208/06/F201208061041591387547292.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90782/7899514.html" target=_blank>Kunqu Opera in the Olympic limelight in London</a></li>
+<li><a href="http://shifu.people.com.cn/viewthread.php?tid=2653&extra=page%3D1" target=_blank><img src="/mediafile/201208/06/F201208061036141742086269.jpg" width="158" height="115"></a><br /><a href="http://shifu.people.com.cn/viewthread.php?tid=2653&extra=page%3D1" target=_blank>Human Body Exhibition kicks off in Belgium</a></li>
+<li><a href="http://shifu.people.com.cn/viewthread.php?tid=2638&extra=page%3D1" target=_blank><img src="/mediafile/201208/06/F201208060815271440442152.jpg" width="158" height="115"></a><br /><a href="http://shifu.people.com.cn/viewthread.php?tid=2638&extra=page%3D1" target=_blank>Weird body art</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>Most Popular</span></h2>
+        <div class="p3_9 d2_5 clear">
+        	<ul><!--1--><li><a href="/90883/7898516.html" title="Shield and olive branches safeguard China's border and coast " target=_blank>Shield and olive branches safeguard Chi…</a></li><!--2--><li><a href="/90883/7899133.html" title="Is China an irresponsible friend of Africa?" target=_blank>Is China an irresponsible friend of Afr…</a></li><!--3--><li><a href="/90882/7898577.html" target=_blank>Who spoils Apple in China?  </a></li><!--4--><li><a href="/90883/7898537.html" title="What hide behind Japan's defense white paper?" target=_blank>What hide behind Japan's defense white …</a></li><!--5--><li><a href="/90786/7898887.html" title="11th Chinese naval escort taskforce passes through Suez Canal" target=_blank>11th Chinese naval escort taskforce pas…</a></li><!--6--><li><a href="/90882/7898916.html" title="First BRT line to be completed in NW China's Yinchuan " target=_blank>First BRT line to be completed in NW Ch…</a></li><!--7--><li><a href="/90883/7898816.html" target=_blank>Partnership with China 'benefits Africa'</a></li><!--8--><li><a href="/90882/7898867.html" target=_blank>Officials warn against poison mushrooms</a></li><!--9--><li><a href="/90777/7898865.html" title="DPRK's Kim stresses importance of relationship with Beijing" target=_blank>DPRK's Kim stresses importance of relat…</a></li><!--10--><li><a href="/90882/7898922.html" title="Policy flaws make low-income housing unpopular " target=_blank>Policy flaws make low-income housing un…</a></li></ul>
+        </div>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>Opinions</span></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90778/7899123.html' target=_blank>Editorial: Mission for eurozone leaders<br></a></li>
+<li><a href='/90777/7899095.html' target=_blank>UN resolution adds pressure to Syria gov't</a></li>
+<li><a href='/90778/7898149.html' target=_blank>What is wrong with products made in China?</a></li>
+<li><a href='/90777/7898030.html' target=_blank>Indian blackout: result of neglect of livelihood</a></li>
+<li><a href='/90778/7897733.html' target=_blank>Editorial: Economic food for thought</a></li>
+<li><a href='/90883/7897162.html' target=_blank>Detachment no serves China's interest in ME</a></li>
+<li><a href='/90778/7896517.html' target=_blank>US sanctions on China's bank ridiculous</a></li>
+<li><a href='/90778/7896061.html' target=_blank>Editorial: Do business, not politics</a></li>
+<li><a href='/90883/7895891.html' target=_blank>Arrival of Chinese fleet rattles EU</a></li>
+<li><a href='/90777/7895929.html' target=_blank>India’s blackout offers lesson to China</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+		<div class="p1_12 d2_6 clear">
+        	<span><a href="http://www.ichacha.net/ppl.aspx" target="_blank"><img src="/img/2011english/images/icon15.gif" alt="" /></a></span>
+       	  <form target="_blank" action="http://www.ichacha.net/people.aspx" method="get"><p><input type="text" name="q" class="one" /> <input type="image" value="查词" src="/img/2011english/images/icon10.gif" /></p></form>
+        </div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>What's happening in China</span></h2>
+        <p class="p1_9 clear"><a href="http://english.peopledaily.com.cn/90882/7899391.html" target=_blank><img src="/mediafile/201208/06/F201208060921419316147815.jpg" width="134" height="98"></a><a href="http://english.peopledaily.com.cn/90882/7899391.html" target=_blank>Train kills woman who ignored alarm at Wudaokou railroad crossing</a>
+</p>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90882/7899406.html' target=_blank>More charity chain stores for Beijing</a></li>
+<li><a href='/90882/7899332.html' target=_blank>Major crackdown in fake medicine scam</a></li>
+<li><a href='/90882/7899269.html' target=_blank>Compensation sought from train crash</a></li>
+<li><a href='/90882/7899127.html' target=_blank>Haikui approaching China's eastern coast</a></li>
+<li><a href='/90882/7899053.html' target=_blank>79 dead in Beijing devastating rainstorm</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span><a href="/102780/index.html" target="_blank">China Features</a></span></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90782/7894636.html' target=_blank>Why Hollywood favores China's actresses?</a></li>
+<li><a href='/90882/7894477.html' target=_blank>Dongfeng Honda to recall 76,000 CR-Vs</a></li>
+<li><a href='/90782/7893208.html' target=_blank>How to protect yourself during heavy rainstorms?</a></li>
+<li><a href='/90882/7892932.html' target=_blank>Are synthetic drugs toxic？</a></li>
+<li><a href='/90882/7892892.html' target=_blank>Amway vitamin C tablets short in weight</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p2_1 d2_8 clear"><span><a href=/102759/index.html target=_blank>PD Online Data</a></span><em></em></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/102759/204057/index.html' target=_blank>Spring Festival</a></li>
+<li><a href='/102759/202921/index.html' target=_blank>Chinese ethnic odyssey</a></li>
+<li><a href='/102759/203348/7646305.html' target=_blank>Yangge in Shaanxi</a></li>
+<li><a href='/102759/203348/7646296.html' target=_blank>Gaoqiao in Northern China</a></li>
+<li><a href='/102759/203348/7646289.html' target=_blank>The drum dance in Ansai</a></li>
+</ol>
+        <div class="d2_11 clear"><p><img src="/img/2011english/images/icon12.gif" alt="" />
+                 <form name="dateform" method="post" onsubmit="return false">
+          <select name="sday">
+              <option value="01">1</option>
+              <option value="02">2</option>
+              <option value="03">3</option>
+              <option value="04">4</option>
+              <option value="05">5</option>
+              <option value="06">6</option>
+              <option value="07">7</option>
+              <option value="08">8</option>
+              <option value="09">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+          </select>
+          <select name="smonth">
+              <option value="01">Jan</option>
+              <option value="02">Feb</option>
+              <option value="03">Mar</option>
+              <option value="04">Apr</option>
+              <option value="05">May</option>
+              <option value="06">Jun</option>
+              <option value="07">Jul</option>
+              <option value="08">Aug</option>
+              <option value="09">Sep</option>
+              <option value="10">Oct</option>
+              <option value="11">Nov</option>
+              <option value="12">Dec</option>
+            </select>
+          <select name="syear">
+              <option value="2007">2007年</option>
+			  <option value="2008">2008年</option>
+              <option value="2009">2009年</option>
+              <option value="2010">2010年</option>
+              <option value="2011">2011年</option>
+            </select><input type="button" value="go" onclick="go()" />
+           <script language="Javascript">
+  	{resetselect()}
+    </script>
+          </form></p>
+        </div>
+    </div>
+    <div class="clear"><img src="/img/2011english/images/lined2.gif" alt="" /></div>
+</div>
+<!--copyright-->
+<div id="copyright"><a href="/102840/7560415.html"  target="_blank">About Us</a>| <a href="/102840/7560413.html"  target="_blank">Contact Us</a>| <a href="/102840/7560418.html"  target="_blank">Site Map</a>| <a href="/102840/7560414.html"  target="_blank">Advertise on site</a>| <a href="/102840/7832549.html"  target="_blank">Job Offer</a><br>
+Copyright by People's Daily Online, All Rights Reserved 
+</div>
+<img src="http://58.68.146.44:8000/d.gif?id=7900030" width=0 height=0>
+<script src="/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://dict.bing.com.cn/cloudwidget/Scripts/Generated/BingTranslate_Hover_Phrase_Selection_ShowIcon.js"></script>
+<script type="text/javascript">
+BingCW.Init({
+   AppID:"http://english.peopledaily.com.cn/",
+   ContentArea:"p_content,p_title",
+   MachineTranslation:true,
+   WebDefinition:true
+})</script>
+</body>
+</html>

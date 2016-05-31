@@ -1,0 +1,490 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="utf-8" />
+<meta name="robots" content="all" />
+<meta name="copyright" content="" />
+<meta name="description" content="Inrecentyears,HollywoodhasfrequentlysentinvitationstoChinesefemalemoviestarswhichincre" />
+<meta name="keywords" content="Hollywood,Zhou Xun,Chinese female stars,Cloud Atlas" />
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="F_90782">
+<meta name="contentid" content="F_7894636">
+<meta name="publishdate" content="2012-08-01">
+<meta name="author" content="F_129">
+<meta name="source" content="People's Daily Overseas Edition">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>Why China's female stars are favored by Hollywood? - People's Daily Online</title>
+<link href="/img/2011english/page.css" type="text/css" rel="stylesheet" media="all" />
+<script src="/css/searchforeign.js"></script>
+<script src="/img/2011english/list.js" language="javascript" type="text/javascript"></script>
+<script src="/css/2006english/content.js" language="javascript" type="text/javascript"></script>
+<script src="/img/2011english/swfobject.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function AXzhz(hideme)
+{
+var AX=document.all(hideme); //声明一个变量
+AX.style.display=AX.style.display=="none"?"":"none"; //判断是否隐藏
+}
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="/css/2006english/content.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function goto(){
+if (document.form1.content.value==null || document.form1.content.value=="" ) {
+		alert("Please write your message!");
+		return;
+	}
+	 else {
+		document.form1.submit();
+		}
+}
+function chakan()
+{
+window.open(url="http://posts.people.com.cn/bbs_new/app/src/main/?action=list&bid=16259251&channel_id=90000&id=7894636&lang=english");
+}
+-->
+</script>
+<script language="javascript" type="text/jscript">
+function go() {
+
+        var today = new Date();
+        var bday = new Date(2006,04, 27);
+
+        tf=document.dateform;
+        vd=tf.sday.options[tf.sday.selectedIndex].value;
+        vm=tf.smonth.options[tf.smonth.selectedIndex].value;
+vy=tf.syear.options[tf.syear.selectedIndex].value;
+        var aday = new Date(vy ,vm-1, vd);
+		if((vy>2007)){ document.location="http://english.peopledaily.com.cn/review/"+vy+vm+vd+".html";}
+ else if (((vd<16)&&(vm==10)&&(vy==2007))||((vy==2007)&&(vm<10))){ window.alert("回顾请从2007年10月16日开始");}
+ 
+ else    {
+        document.location="http://english.peopledaily.com.cn/review/"+vy+vm+vd+".html";}
+}
+function resetselect () {
+	var mydate = new Date();
+    var myyear = mydate.getFullYear();
+    var mymonth = mydate.getMonth()+1;
+	var mytoday = mydate.getDate();
+	if(new String(mymonth).length==1)mymonth="0"+new String(mymonth);
+	if(new String(mytoday).length==1)mytoday="0"+new String(mytoday);
+	document.dateform.syear.value=myyear;
+    document.dateform.smonth.value=mymonth;
+    document.dateform.sday.value=mytoday;
+}
+</script>
+<!--<script type='text/javascript' src='http://yousheng.people.com.cn/IVSWebSite/js/ivs_syn.js' >
+</script>
+<script type='text/javascript'> 
+    var ivs_speed = 0; 
+    var ivs_gender =15;
+    var ivs_iscssml =0;
+    var ivs_playerid =2;
+    var ivs_playertype =0;
+    ivs_speak();
+</script>-->
+</head>
+<body>
+<!--ad-->
+<div class="width980 ad01 clear"><script type="text/javascript">
+var isIE = (document.all) ? true : false;
+
+var $ = function (id) {
+	return "string" == typeof id ? document.getElementById(id) : id;
+};
+
+var Class = {
+	create: function() {
+		return function() { this.initialize.apply(this, arguments); }
+	}
+}
+
+var Extend = function(destination, source) {
+	for (var property in source) {
+		destination[property] = source[property];
+	}
+}
+
+var Bind = function(object, fun) {
+	return function() {
+		return fun.apply(object, arguments);
+	}
+}
+
+var Each = function(list, fun){
+	for (var i = 0, len = list.length; i < len; i++) { fun(list[i], i); }
+};
+
+
+//ie only
+var RevealTrans = Class.create();
+RevealTrans.prototype = {
+  initialize: function(container, options) {
+	this._img = document.createElement("img");
+	this._a = document.createElement("a");
+	
+	this._timer = null;//计时器
+	this.Index = 0;//显示索引
+	this._onIndex = -1;//当前索引
+	
+	this.SetOptions(options);
+	
+	this.Auto = !!this.options.Auto;
+	this.Pause = Math.abs(this.options.Pause);
+	this.Duration = Math.abs(this.options.Duration);
+	this.Transition = parseInt(this.options.Transition);
+	this.List = this.options.List;
+	this.onShow = this.options.onShow;
+	
+	//初始化显示区域
+	this._img.style.visibility = "hidden";//第一次变换时不显示红x图
+	this._img.style.width = this._img.style.height = "100%"; this._img.style.border = 0;
+	this._img.onmouseover = Bind(this, this.Stop);
+	this._img.onmouseout = Bind(this, this.Start);
+	isIE && (this._img.style.filter = "revealTrans()");
+	
+	this._a.target = "_blank";
+	
+	$(container).appendChild(this._a).appendChild(this._img);
+  },
+  //设置默认属性
+  SetOptions: function(options) {
+	this.options = {//默认值
+		Auto:		true,//是否自动切换
+		Pause:		5000,//停顿时间(微妙)
+		Duration:	1,//变换持续时间(秒)
+		Transition:	23,//变换效果(23为随机)
+		List:		[],//数据集合,如果这里不设置可以用Add方法添加
+		onShow:		function(){}//变换时执行
+	};
+	Extend(this.options, options || {});
+  },
+  Start: function() {
+	clearTimeout(this._timer);
+	//如果没有数据就返回
+	if(!this.List.length) return;
+	//修正Index
+	if(this.Index < 0 || this.Index >= this.List.length){ this.Index = 0; }
+	//如果当前索引不是显示索引就设置显示
+	if(this._onIndex != this.Index){ this._onIndex = this.Index; this.Show(this.List[this.Index]); }
+	//如果要自动切换
+	if(this.Auto){
+		this._timer = setTimeout(Bind(this, function(){ this.Index++; this.Start(); }), this.Duration * 1000 +   this.Pause);
+	}
+  },
+  //显示
+  Show: function(list) {
+	if(isIE){
+		//设置变换参数
+		with(this._img.filters.revealTrans){
+			Transition = this.Transition; Duration = this.Duration; apply(); play();
+		}
+	}
+	this._img.style.visibility = "";
+	//设置图片属性
+	this._img.src = list.img; this._img.alt = list.text;
+	//设置链接
+	!!list["url"] ? (this._a.href = list["url"]) : this._a.removeAttribute("href");
+	//附加函数
+	this.onShow();
+  },
+  //添加变换对象
+  Add: function(sIimg, sText, sUrl) {
+	this.List.push({ img: sIimg, text: sText, url: sUrl });
+  },
+  //停止
+  Stop: function() {
+	clearTimeout(this._timer);
+  }
+};
+
+
+</script>
+<style type="text/css">
+.container{
+	width:980px;
+	height:80px;
+	border:0;
+	position:relative;
+        overflow:hidden;
+}
+
+
+</style>
+<div id="idShow" class="container"></div>
+<script>
+var r = new RevealTrans("idShow");
+//添加变换对象
+
+r.Add('/mediafile/201207/11/F201207111509358128132852.jpg', ' ', '  http://english.people.com.cn/102775/205557/index.html');
+r.Start();
+
+r.Add('/mediafile/201204/16/F201204161541533265025480.jpg', ' ', '  http://english.people.com.cn/102775/100668/204459/index.html');
+r.Start();
+
+r.Add('/mediafile/201112/31/F201112311327216291559115.jpg', ' ', '  http://english.people.com.cn/102775/203908/index.html');
+r.Start();
+
+r.Add('/mediafile/201005/17/F201005170803181194618522.jpg', ' ', '  http://en.ynta.gov.cn/default.aspx');
+r.Start();
+
+</script></div>
+<!--nav-->
+<div class="nav01 clear">
+	<div class="width980 clear">
+    	<div class="nav01_left"><a href="http://english.peopledaily.com.cn/" target="_blank"><img src="/img/2011english/images/logo.gif" alt="" /></a></div>
+        <div class="nav01_right">
+        	<p class="one"><span><a style="cursor:hand;" onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://english.peopledaily.com.cn/');" href="#">Set as Homepage</a>|<a href="http://shifu.people.com.cn/register.php" target="_blank">Register</a>|<a href="http://shifu.people.com.cn/logging.php?action=login" target="_blank">Sign In</a></span><em><a href="http://www.people.com.cn/" target="_blank">Chinese</a>|<a href="http://www.people.com.cn/BIG5/" target="_blank">Big 5</a>|<a href="http://french.peopledaily.com.cn/" target="_blank">French</a>|<a href="http://russian.people.com.cn/" target="_blank">Russian</a>|<a href="http://spanish.peopledaily.com.cn/" target="_blank">Spanish</a>|<a href="http://j.people.com.cn/" target="_blank">Japanese</a>|<a href="http://arabic.people.com.cn/" target="_blank">Arabic</a>|<a href="http://kr.people.com.cn/" target="_blank">Korean</a></em></p>
+            <p class="two"><span><a href="/102775/index.html" target="_blank">Special Coverage</a>|<a href="/102759/index.html" target="_blank">PD Online Database</a></span><em><a href="http://weibo.com/2044859165" target="_blank"><img src="/img/2011english/images/icon01.gif" alt="" />Sina Microblog</a><a href="http://t.qq.com/invite/" target="_blank"><img src="/img/2011english/images/icon02.gif" alt="" />Tencent Microblog</a><a href="mailto:enpeople@sina.com" target="_blank"><img src="/img/2011english/images/icon03.gif" alt="" />Feedback</a><a href="http://www.people.com.cn/rss/opml_en.xml" target="_blank"><img src="/img/2011english/images/icon04.gif" alt="" />RSS</a></em></p>
+        </div>
+  	</div>
+</div>
+<div class="width980 nav02 clear">
+	<div><form action="http://search.people.com.cn/rmw/GB/foreignsearch/languagesearch.jsp" name="MLSearch" method="post" onSubmit="if(getParameter_DJ(document.MLSearch)==false) return false;">
+<input type="hidden" name="language" value="2"/>
+<input type="hidden" name="sitename" value="english"/>
+<input type="hidden" name="XMLLIST">&nbsp;<img src="/img/2011english/images/icon06.gif" alt="" />&nbsp;<input type="text" name="names" id="names" class="one" value="" />&nbsp;<input type="image" name="button" id="button" value="search" src="/img/2011english/images/icon05.gif" /></form></div>
+    <p><a href="/102842/index.html" target="_blank" class="one">News</a><a href="/90780/index.html" target="_blank">Opinions</a><a href="/90786/index.html" target="_blank">China Military</a><a href="/90883/index.html" target="_blank">Foreign Affairs</a><a href="/90778/index.html" target="_blank">China Business</a><a href="/90782/index.html" target="_blank">Life&Culture</a><a href="http://shifu.people.com.cn/index.php" target="_blank">Forum</a></p>
+</div>
+<!--new-->
+<div class="width978 news clear">
+	<div class="news_left">
+    	<b><a href="/102842/index.html" target="_blank">Latest News:</a>&nbsp;&nbsp;</b>
+        <div>
+        	<ul id="listmar"><li><a href='/90782/7894636.html' target=_blank>Why China's female stars are favored by Hollywood?</a></li>
+<li><a href='/90779/7894633.html' target=_blank>Historic day for Phelps</a></li>
+<li><a href='/90782/7894630.html' target=_blank>How to remove grape juice stains on white clothes?</a></li>
+<li><a href='/90779/7894625.html' target=_blank>Kim Jae-bum brings South Korea first judo gold</a></li>
+<li><a href='/90779/7894604.html' target=_blank>American gymnasts win, China out of podium at women's team</a></li>
+<li><a href='/90779/7894598.html' target=_blank>Despite losses, British shuttlers cheered for persistence</a></li>
+<li><a href='/90779/7894595.html' target=_blank>China's Xu Lili wins judo 63kg elimination round of 16 </a></li>
+<li><a href='/90779/7894590.html' target=_blank>Olympic hurdles final probably to produce world record, says Richardson</a></li>
+<li><a href='/90882/7894580.html' target=_blank>Foreign names banned in Henan province</a></li>
+<li><a href='/90882/7894578.html' target=_blank>Timely disclosure of info urged for Red Cross of China</a></li>
+
+</ul>
+        </div>
+    </div>
+    <div class="news_right"><div class="tianqi_right">Beijing&nbsp;&nbsp;&nbsp;Heavy&nbsp;rain/Thundershower&nbsp;&nbsp;&nbsp;<span style="color:#c00;">&nbsp;27&nbsp;/&nbsp;23&nbsp;℃</span>&nbsp;&nbsp;<a href="/90001/98751/index.html" target="_blank"><span style="color:#000;">City&nbsp;Forecast</span></a></div></div></div>
+    <script type="text/javascript">
+	<!--   
+	new simpleScroll("listmar",25,10,1);   
+	-->
+    </script>
+</div>
+<!--d2-->
+<div class="width980 d2_content clearfix clear">
+	<div class="clear"><img src="/img/2011english/images/lined2.gif" alt="" /></div>
+  	<div class="d2_left" id="dingtop">
+   		<h2 class="p2_1 d2_1 clear"><span><a href="http://english.peopledaily.com.cn/" target="_blank">English</a>&gt;&gt;<a href="/90782/index.html">Life & Culture</a></span><em></em></h2>
+      	<div id="ivs_title"><h1 class="wb_1 clear"><span id="p_title">Why China's female stars are favored by Hollywood?</span></h1></div>
+        <h3 class="wb_2 clear"> (<a href="http://paper.people.com.cn/rmrbhwb/html/2011-08/01/node_865.htm">People's Daily Overseas Edition</a>)</h3>
+        <h3 class="wb_3 clear"><span id="p_publishtime">09:37, August 01, 2012</span> <img src="/img/2011english/images/icon16.gif" alt="" /> <a href="#" onClick="return doZoom(16)"><img src="/img/2011english/images/icon17.gif" alt="" /></a> <a href="#" onClick="return doZoom(14)"><img src="/img/2011english/images/icon18.gif" alt="" /></a></h3>
+        <h4 id='ivs_player' style="text-align:center;padding-top:10px;"></h4>
+        <div class="wb_4 clear">
+        	<table width='450' cellspacing=0 cellpadding=3 align=center><tr><td align='center'><a href='/102774/7894659.html'><img border="0" src="/mediafile/201208/01/F201208010948121018931455.jpg"  ></a></td></tr><tr><td align=center><font color='#000000'>Zhou Xun, a Chinese female movie star, is seen in &quot;Cloud Atlas,&quot; a science fiction movie directed by Lana Wachowski.(file photo)</font></td></tr></table>
+            <div id="ivs_content"><p id="zoom"><span id="p_content">In recent years, Hollywood has frequently sent invitations to Chinese female movie stars which increased their work and roles in Hollywood and gave them a better opportunity for development. What makes them so popular in Hollywood? Where is their way out to the west? <br><br><b>Chinese movie stars joined the cast of four foreign blockbusters</b><br><br>The trailer of &quot;Cloud Atlas,&quot; a science fiction movie directed by Lana Wachowski, was released worldwide on July 28, and Zhou Xun, a Chinese female movie star was seen in it. Zhou Xun's representatives disclosed that she portrayed three roles in the movie, all of which have a subversive appearance. The release of the trailer attracted numerous Chinese movie fans.<br><br>&quot;Cloud Atlas&quot; was not the first Hollywood movie to feature Chinese movie stars. As early as the beginning of 2011, Xu Qing, another Chinese female star, was invited to join the &quot;Looper&quot; cast, a Hollywood science fiction movie, where she portrayed the wife of the protagonist played by superstar Bruce Willis.<br><br> Soon after, another Chinese female star Yu Nan said that she was invited to join the cast of &quot;The Expendables 2&quot; where some on-set photos were released. <br><br>In October 2011, Chinese female star Li Bingbing uploaded several on-set photos from Canada and her agent also confirmed that Li is currently shooting &quot;Resident Evil: Retribution.&quot; In the movie, Li was cast as character Ada Wong and will fight zombies alongside Milla Jovovich.<br><br> In June 2012, Chinese female star Fan Bingbing's name also appeared in the cast of &quot;The Moon and the Sun&quot; released by Bliss Media, a production company in Hollywood.<br><br><b>Hollywood eyes huge Chinese market </b><br><br>Why does Hollywood favor Chinese actresses? Many industry insiders attributed it to the rapid development of the Chinese film market in recent years. <br><br>Famous movie critic Yu Sui wrote on domestic online movie database mtime.com that China's box-office revenue exceeded 10 billion yuan in 2011, making the country the world's second largest film market only after North America and thus attracting Hollywood producers to China. &quot;The Chinese film market is developing rapidly. Shrewd businesspeople in Hollywood will certainly not ignore the world's second largest contributor to the box-office takings of 'Avatar,'  'Transformers,' and many other movies,&quot; said Zhou Liming, the author of Hollywood Politics and Economics. <br><br>Hollywood is willing to add Chinese actresses to its cast in order to attract the attention of Chinese movie-goers. &quot;Adding a Chinese actor will make it easier for a movie to be accepted by the Chinese market,&quot; Zhou said. &quot;In the era of globalization, Hollywood cannot ignore Chinese actors just as major U.S. companies cannot ignore small Chinese companies,&quot; said Prof. Wu Yulan, deputy dean of the School of Journalism and Mass Media under the Zhongnan University of Economics and Law, explaining the phenomenon from an economic perspective. <br><center><a href="/90782/7894636.html" class="abl2">【1】 </a><a href="/102774/7894659.html" class="abl2">【2】 </a></center><br><center><table border="0" align="center"> <tr><td><a href="/102774/7894659.html"><img src="/img/2007english/Next.jpg" border="0"></a></td></tr></table></center></span></p></div>
+            
+        </div>
+        <div class="wb_6 clear"><span><a href="mailto:enpeople@sina.com">Email</a>|<a href="#"  onclick="doPrint()">Print</a>|<a href="#liuyan">Comments</a><img src="/img/2011english/images/icon19.gif" onclick="AXzhz('AX')" style="cursor:pointer;" /></span><em>（Editor：叶欣、雪萌）</em></div>
+        <div class="wb_7 clear" id="AX" style="display:none;">
+        	<h3>Increases the bookmark</h3>
+            <ul>
+            	<li><img src="/img/2011english/images/icon21.gif" alt="" /> <a href="http://twitter.com/home?status=Why China's female stars are favored by Hollywood? http://english.people.com.cn/90782/7894636.html" target="_blank">twitter</a></li>
+                <li><img src="/img/2011english/images/icon22.gif" alt="" /> <a href="http://www.facebook.com/sharer.php?u=http://english.people.com.cn/90782/7894636.html&t=Why China's female stars are favored by Hollywood?" target="_blank">facebook</a></li>
+                <li><img src="/img/2011english/images/icon20.gif" alt="" /> <a href="http://v.t.sina.com.cn/share/share.php?title=Why China's female stars are favored by Hollywood? http://english.people.com.cn/90782/7894636.html" target="_blank">Sina Microblog</a></li>
+                <li><img src="/img/2011english/images/icon23.gif" alt="" /> <a href="http://digg.com/submit?phase=2&url=http://english.people.com.cn/90782/7894636.html&title=Why China's female stars are favored by Hollywood?" target="_blank">digg</a></li>
+                <li><img src="/img/2011english/images/icon24.gif" alt="" /> <a href="http://www.google.com/bookmarks/mark?op=add&title=Why China's female stars are favored by Hollywood?&bkmk=http://english.people.com.cn/90782/7894636.html" target="_blank">Google</a></li>
+                <li><img src="/img/2011english/images/icon25.gif" alt="" /> <a href="http://del.icio.us/post?&url=http://english.people.com.cn/90782/7894636.html&title=Why China's female stars are favored by Hollywood?" target="_blank">Delicious</a></li>
+                <li><img src="/img/2011english/images/icon26.gif" alt="" /> <a href="http://buzz.yahoo.com/buzz?targetUrl=http://english.people.com.cn/90782/7894636.html&headline=Why China's female stars are favored by Hollywood?&src=People's Daily Online" target="_blank">buzz</a></li>
+                <li><img src="/img/2011english/images/icon27.gif" alt="" /> <a href="http://friendfeed.com/share?url=http://english.people.com.cn/90782/7894636.html&title=Why China's female stars are favored by Hollywood? - People's Daily Online" target="_blank">friendfeed</a></li>
+                <li><img src="/img/2011english/images/icon28.gif" alt="" /> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://english.people.com.cn/90782/7894636.html&title=Why China's female stars are favored by Hollywood?&summary=&source=http://english.people.com.cn" target="_blank">Linkedin</a></li>
+                <li><img src="/img/2011english/images/icon29.gif" alt="" /> <a href="http://secure.diigo.com/post?url=http://english.people.com.cn/90782/7894636.html&title=Why China's female stars are favored by Hollywood? - People's Daily Online" target="_blank">diigo</a></li>
+                <li><img src="/img/2011english/images/icon30.gif" alt="" /> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl%3Dhttp://english.people.com.cn/90782/7894636.html%26title%3DWhy China's female stars are favored by Hollywood?">reddit</a></li>
+                <li><img src="/img/2011english/images/icon31.gif" alt="" /> <a href="http://www.stumbleupon.com/submit?url=http://english.people.com.cn/90782/7894636.html&title=Why China's female stars are favored by Hollywood?" target="_blank">stumbleupon</a></li>
+                <li><img src="/img/2011english/images/icon32.gif" alt="" /> <a href="javascript:void(0);" onclick="window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(document.location.href));return false;" title="">Qzone</a></li>
+                <li><img src="/img/2011english/images/icon32.gif" alt="" /> <a href="http://v.t.qq.com/share/share.php?title=Why China's female stars are favored by Hollywood? http://english.people.com.cn/90782/7894636.html" target="_blank">QQ Microblog</a></li>
+            </ul>
+        </div>
+        <div class="wb_8 clear">
+       	  	<h2>Related Reading</h2>
+          	<ol class="p1_5 p1_10 clear"><li><a href="/90782/7888781.html" target=_blank>Chinese film industry slumps after opening up to Hollywood</a></li><li><a href="/90782/7829276.html" target=_blank>Hollywood stuntmen stage trick cycling performance in Hangzhou</a></li><li><a href="/90782/7814432.html" target=_blank>'The Hunger Games' to be released in China</a></li><li><a href="/90782/7814427.html" target=_blank>Hollywood blockbuster 'The Grey' to open in China</a></li><li><a href="/90782/7803337.html" target=_blank>Hollywood films with Chinese elements a &quot;reel&quot; hit</a></li><li><a href="/90782/7787815.html" target=_blank>Actress Kim Novak honored at Grauman's Chinese Theatre</a></li><li><a href="/90782/7765338.html" target=_blank>'The Muppets' gets Hollywood fame star</a></li><li><a href="/90782/90875/7751881.html" target=_blank>Second couple honored at Hollywood Walk of Fame on same day</a></li><li><a href="/90782/90875/7750661.html" target=_blank>Film, TV spending rises 16 pct in Hollywood North</a></li><li><a href="/90777/7678924.html" target=_blank>Silicon Valley, Hollywood fight over anti-piracy bill</a></li></ol>
+      	</div>
+        <div class="wb_10 clear">
+   			<h2><span><a href=http://english.people.com.cn/ target=_blank>Hot News</a></span></h2>
+            <ol><li><a href='/90882/7894256.html' target=_blank>China removes safety hazards in railway sweep</a></li>
+<li><a href='/90882/7894249.html' target=_blank>New rules will restrict use of antibiotics</a></li>
+<li><a href='/90785/7892933.html' target=_blank>CPC local committees reshuffle</a></li>
+<li><a href='/90883/7892797.html' target=_blank>Chinese fishermen to return home</a></li>
+<li><a href='/90778/7894380.html' target=_blank>&quot;Golden opportunity&quot; for Chinese lenders in U.S.</a></li>
+<li><a href='/90778/7894260.html' target=_blank>Adidas suppliers seek redress from factory-closing decision</a></li>
+<li><a href='/90882/7892892.html' target=_blank>Amway vitamin C tablets short in weight</a></li>
+<li><a href='/90882/7892851.html' target=_blank>Fly found in Wang Zai milk</a></li>
+</ol>
+        </div>
+        <div class="wb_9 clear">
+   			<h2><span>Leave your comment</span><em>0 comments</em></h2>
+           <form name="form1" method="post" action="http://posts.people.com.cn/bbs_new/app/src/main/?action=parse_publish&op=ins&bid=16259251&channel_id=90000&id=7894636&lang=english" target="_blank" >
+    <INPUT type=hidden name=pid value=0>
+   	  	  <ol id="liuyan">
+       	  	  	<li>Name <input type="text" name="yonghuming" id="yonghuming" /></li>
+           	  	<li><span><textarea name="content" id="content" cols="45" rows="5"></textarea></span><em><a href="JavaScript:goto();"><img src="/img/2011english/images/icon33.gif" alt="" /></a><br /><a href="http://posts.people.com.cn/bbs_new/app/src/main/?action=list&bid=16259251&channel_id=90000&id=7894636&lang=english" target="_blank"><img src="/img/2011english/images/icon34.gif" alt="" /></a></em></li>
+       	  	</ol>
+            </form>
+            <dl>
+            	
+            </dl>
+        </div>
+        <div class="wb_5 wb_11 clear"><a href="http://english.peopledaily.com.cn/" target="_blank"><img src="/img/2011english/images/icon35.gif" alt="" /></a>&nbsp;&nbsp;<a href="#dingtop"><img src="/img/2011english/images/icon37.gif" alt="" /></a></div>
+    </div>
+    <div class="d2_right">
+    	<h2 class="p1_2 p1_8 d2_4 clear"><span>Selections for you</span></h2>
+        <ol class="wb_12 clear"><li><a href="http://english.peopledaily.com.cn/90786/7892912.html" target=_blank><img src="/mediafile/201207/31/F201207310940037484216272.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90786/7892912.html" target=_blank>APF servicemen conduct anti-riot and emergency handling training</a></li>
+<li><a href="http://english.people.com.cn/90777/7893753.html" target=_blank><img src="/mediafile/201207/31/F201207311751042392025385.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90777/7893753.html" target=_blank>Floods leave 62,900 homeless in DPRK</a></li>
+<li><a href="http://english.people.com.cn/90778/7894427.html" target=_blank><img src="/mediafile/201208/01/F201208010957531873023071.jpg" width="158" height="115"></a><br /><a href="http://english.people.com.cn/90778/7894427.html" target=_blank>Major lenders flex financial muscles</a></li>
+<li><a href="http://english.peopledaily.com.cn/90782/7893861.html" target=_blank><img src="/mediafile/201207/31/F201207311651041637115553.jpg" width="158" height="115"></a><br /><a href="http://english.peopledaily.com.cn/90782/7893861.html" target=_blank>Making friends and influencing Germans</a></li>
+<li><a href="http://shifu.people.com.cn/viewthread.php?tid=2255&extra=page%3D1&page=1" target=_blank><img src="/mediafile/201208/01/F201208010819552817711879.jpg" width="158" height="115"></a><br /><a href="http://shifu.people.com.cn/viewthread.php?tid=2255&extra=page%3D1&page=1" target=_blank>Places in China--Chéngdé</a></li>
+<li><a href="http://shifu.people.com.cn/viewthread.php?tid=2618&extra=page%3D1" target=_blank><img src="/mediafile/201208/01/F201208010930451556391971.jpg" width="158" height="115"></a><br /><a href="http://shifu.people.com.cn/viewthread.php?tid=2618&extra=page%3D1" target=_blank>Big age gap relationships in showbiz</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>Most Popular</span></h2>
+        <div class="p3_9 d2_5 clear">
+        	<ul><!--1--><li><a href="/90882/7891350.html" title="Porsche to recall 72 Panamera vehicles in China" target=_blank>Porsche to recall 72 Panamera vehicles …</a></li><!--2--><li><a href="/90782/7891298.html" title="Large wooden bridge of Qin Dynasty found for the first time" target=_blank>Large wooden bridge of Qin Dynasty foun…</a></li><!--3--><li><a href="/90782/7892042.html" target=_blank>Do not use tap water for cooking</a></li><!--4--><li><a href="/90782/7891391.html" target=_blank>Renovated ancient temple – Yiju Temple</a></li><!--5--><li><a href="/90882/7891698.html" title="Apple adopts ridiculous repair policy for iPads " target=_blank>Apple adopts ridiculous repair policy f…</a></li><!--6--><li><a href="/90782/7893540.html" title="Eat eight foods more to improve digestion in summer" target=_blank>Eat eight foods more to improve digesti…</a></li><!--7--><li><a href="/90782/7893535.html" target=_blank>How to fix undercooked rice?</a></li><!--8--><li><a href="/90782/7892040.html" target=_blank>Food base helps remove peach fuzz</a></li><!--9--><li><a href="/90883/7892161.html" title="US should not cross the line to intervene in maritime disputes" target=_blank>US should not cross the line to interve…</a></li><!--10--><li><a href="/90782/7893238.html" title="Overseas study tours gain popularity in China" target=_blank>Overseas study tours gain popularity in…</a></li></ul>
+        </div>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>Opinions</span></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90778/7893533.html' target=_blank>Rare earth regulation justified</a></li>
+<li><a href='/90778/7891518.html' target=_blank>How to improve China's tourism industry</a></li>
+<li><a href='/90883/7889468.html' target=_blank>S. China Sea issue, where is Philippines’ restraint? </a></li>
+<li><a href='/90778/7890588.html' target=_blank>On right track for growth model change</a></li>
+<li><a href='/90778/7890585.html' target=_blank>Added value key to countering protectionism</a></li>
+<li><a href='/90779/7889651.html' target=_blank>What to expect at London Olympics: Star athletes</a></li>
+<li><a href='/90779/7889606.html' target=_blank>What to expect at London Olympics: Beauties</a></li>
+<li><a href='/90883/7889382.html' target=_blank>US seeks to create new waves in S.China Sea</a></li>
+<li><a href='/90778/7888899.html' target=_blank>Labor test for policymakers</a></li>
+<li><a href='/90779/7888065.html' target=_blank>What to expect at London Olympics: Opponents</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+		<div class="p1_12 d2_6 clear">
+        	<span><a href="http://www.ichacha.net/ppl.aspx" target="_blank"><img src="/img/2011english/images/icon15.gif" alt="" /></a></span>
+       	  <form target="_blank" action="http://www.ichacha.net/people.aspx" method="get"><p><input type="text" name="q" class="one" /> <input type="image" value="查词" src="/img/2011english/images/icon10.gif" /></p></form>
+        </div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span>What's happening in China</span></h2>
+        <p class="p1_9 clear"><a href="http://english.people.com.cn/90882/7892851.html" target=_blank><img src="/mediafile/201207/31/F201207310831526951272676.jpg" width="134" height="98"></a><a href="http://english.people.com.cn/90882/7892851.html" target=_blank>Fly found in Wang Zai milk</a>
+</p>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90882/7892973.html' target=_blank>Illegal taxis in Shanghai facing crackdown</a></li>
+<li><a href='/90882/7892989.html' target=_blank>Desertification threatens Qinghai-Tibet Railway</a></li>
+<li><a href='/90882/7892990.html' target=_blank>Lanzhou witnesses biggest flood peak since 1986</a></li>
+<li><a href='/90882/7893149.html' target=_blank>Arson suspect seized in Beijing</a></li>
+<li><a href='/90882/7893107.html' target=_blank>Free dinners battle bias against migrants</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p1_2 p1_8 d2_4 clear"><span><a href="/102780/index.html" target="_blank">China Features</a></span></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/90778/7891518.html' target=_blank>How to improve China's tourism industry</a></li>
+<li><a href='http://english.people.com.cn/102775/205717/index.html' target='_blank'>Special coverage: Bloodshed in U.S. theatre</a></li><li><a href='/90883/7889468.html' target=_blank>S. China Sea issue, where is Philippines’ restraint? </a></li>
+<li><a href='/90883/7890618.html' target=_blank>US Osprey aircraft arrive in Japan amid protests</a></li>
+<li><a href='/90786/7889479.html' target=_blank>PLA helicopter unit open door to foreign media</a></li>
+</ol>
+        <div class="clear"><img src="/img/2011english/images/line360a.gif" alt="" /></div>
+        <div class="clear"><img src="/img/2011english/images/line360b.gif" alt="" /></div>
+        <h2 class="p2_1 d2_8 clear"><span><a href=/102759/index.html target=_blank>PD Online Data</a></span><em></em></h2>
+        <ol class="p1_5 p1_10 clear"><li><a href='/102759/204057/index.html' target=_blank>Spring Festival</a></li>
+<li><a href='/102759/202921/index.html' target=_blank>Chinese ethnic odyssey</a></li>
+<li><a href='/102759/203348/7646305.html' target=_blank>Yangge in Shaanxi</a></li>
+<li><a href='/102759/203348/7646296.html' target=_blank>Gaoqiao in Northern China</a></li>
+<li><a href='/102759/203348/7646289.html' target=_blank>The drum dance in Ansai</a></li>
+</ol>
+        <div class="d2_11 clear"><p><img src="/img/2011english/images/icon12.gif" alt="" />
+                 <form name="dateform" method="post" onsubmit="return false">
+          <select name="sday">
+              <option value="01">1</option>
+              <option value="02">2</option>
+              <option value="03">3</option>
+              <option value="04">4</option>
+              <option value="05">5</option>
+              <option value="06">6</option>
+              <option value="07">7</option>
+              <option value="08">8</option>
+              <option value="09">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+          </select>
+          <select name="smonth">
+              <option value="01">Jan</option>
+              <option value="02">Feb</option>
+              <option value="03">Mar</option>
+              <option value="04">Apr</option>
+              <option value="05">May</option>
+              <option value="06">Jun</option>
+              <option value="07">Jul</option>
+              <option value="08">Aug</option>
+              <option value="09">Sep</option>
+              <option value="10">Oct</option>
+              <option value="11">Nov</option>
+              <option value="12">Dec</option>
+            </select>
+          <select name="syear">
+              <option value="2007">2007年</option>
+			  <option value="2008">2008年</option>
+              <option value="2009">2009年</option>
+              <option value="2010">2010年</option>
+              <option value="2011">2011年</option>
+            </select><input type="button" value="go" onclick="go()" />
+           <script language="Javascript">
+  	{resetselect()}
+    </script>
+          </form></p>
+        </div>
+    </div>
+    <div class="clear"><img src="/img/2011english/images/lined2.gif" alt="" /></div>
+</div>
+<!--copyright-->
+<div id="copyright"><a href="/102840/7560415.html"  target="_blank">About Us</a>| <a href="/102840/7560413.html"  target="_blank">Contact Us</a>| <a href="/102840/7560418.html"  target="_blank">Site Map</a>| <a href="/102840/7560414.html"  target="_blank">Advertise on site</a>| <a href="/102840/7832549.html"  target="_blank">Job Offer</a><br>
+Copyright by People's Daily Online, All Rights Reserved 
+</div>
+<img src="http://58.68.146.44:8000/d.gif?id=7894636" width=0 height=0>
+<script src="/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="http://dict.bing.com.cn/cloudwidget/Scripts/Generated/BingTranslate_Hover_Phrase_Selection_ShowIcon.js"></script>
+<script type="text/javascript">
+BingCW.Init({
+   AppID:"http://english.peopledaily.com.cn/",
+   ContentArea:"p_content,p_title",
+   MachineTranslation:true,
+   WebDefinition:true
+})</script>
+</body>
+</html>
