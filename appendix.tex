@@ -8,7 +8,7 @@
 
 \subsection{Synopsis}
 
-article-grab-link.py -t PUBLICATION -f FILE
+\mintinline{bash}{article-grab-link.py -t PUBLICATION -f FILE}
 
 \subsection{Description}
 
@@ -19,6 +19,10 @@ PUBLICATION and returns links to articles in the given FILE.
 
 \begin{description}
 	\item [-t PUBLICATION] Use PUBLICATION in parsing a saved results page.
+	\begin{description}
+		\item [-t rmrb] Download articles from People's Daily (English).
+		\item [-t chinadaily] Download articles from China Daily.
+	\end{description}
 	\item [-f FILE] Obtain links from FILE. Multiple input files are not
 	supported.
 \end{description}
@@ -66,6 +70,7 @@ McDonald's}
 	\item Author: not listed
 	\item Editor: Liang Jun, Bianji
 	\item Syndicated: Yes, CRI Online
+	\item Filename: \mintinline{text}{c90000-8977155.html}
 \end{itemize}
 
 \begin{displayquote}
@@ -107,6 +112,8 @@ generated controversy, again.
 	\item Author: not listed
 	\item Editor: Ma Xiaochun, Bianji
 	\item Syndicated: Yes, Xinhua
+	\item Filename: \mintinline{text}{c90000-9008767.html},
+	\mintinline{text}{c90000-9008767-2.html}
 \end{itemize}
 
 \begin{displayquote}
@@ -233,6 +240,7 @@ other food and/or beverage products on board
 	\item Author: not listed
 	\item Editor: not listed
 	\item Syndicated: China Daily/Agencies
+	\item File name: \mintinline{text}{out-of-scope/6886496.html}
 \end{itemize}
 
 \begin{displayquote}
@@ -288,6 +296,8 @@ related to China or the Chinese.
 	\item Author: Ku Ma
 	\item Editor: Kong Defang, Yao Chun
 	\item Syndicated: Yes, China Daily
+	\item Filename: \mintinline{text}{out-of-scope/c90882-8755827.html},
+	\mintinline{text}{out-of-scope/content_17780431_2.htm}
 \end{itemize}
 
 \begin{displayquote}
@@ -372,7 +382,7 @@ related to China or the Chinese.
 
 	His professional achievements and possible illegal deeds are two
 	separate things, so his “being taken away” has nothing to do with his
-	“patriotic remarks”. Many journalists use cheap tricks to sensationalize
+	``patriotic remarks''. Many journalists use cheap tricks to sensationalize
 	their reports, because they fear that otherwise viewers and/or readers
 	will consider their efforts ordinary and dull. But is it is right to
 	sensationalize news even if it is to promote nationalism? More
