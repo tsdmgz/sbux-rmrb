@@ -49,7 +49,7 @@ now be constructed.
 cd data/articles/peoples-daily/searchresults
 echo "http://search.people.com.cn/language/search.do?pageNum="{1..9}
 "&keyword=starbucks&siteName=english&dateFlag=true&a=&b=&c=&d=&e=&f="
- | parallel -n1 -j9 wget -v
+| parallel -n1 -j9 wget -v
 \end{minted}
 With all pages from the search results downloaded, links to resulting articles
 can now be parsed.
