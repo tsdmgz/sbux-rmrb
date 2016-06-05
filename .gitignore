@@ -1,4 +1,5 @@
 _minted-topic-proposal/
+_minted-thesis/
 *.swo
 *.swp
 *.toc
@@ -9,4 +10,4 @@ _minted-topic-proposal/
 *.log
 *.run.xml
 *.out
-topic-proposal.pdf
+*.fods#
