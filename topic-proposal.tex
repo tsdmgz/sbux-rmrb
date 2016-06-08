@@ -1,0 +1,44 @@
+%include file
+%holds everything
+\documentclass[12pt]{report}
+\input{header.tex}
+
+\usepackage[colorlinks=true,urlcolor=blue,citecolor=black,linkcolor=black]{hyperref}
+\hypersetup{
+	unicode=true,
+	pdfauthor={Dominguez, Terzeus S.},
+	pdftitle={Coffee in China},
+	breaklinks=true
+	}
+\urlstyle{same}
+
+\usepackage{minted}
+\setminted{
+	breaklines
+}
+\setmintedinline{
+	breaklines
+}
+
+\begin{document}
+	\input{tprop-abstract.tex}
+
+	\raggedright
+	\onehalfspacing
+	\setlength{\parindent}{1cm}
+	\setlength{\parskip}{1.5em}
+
+	\tableofcontents
+	\newpage
+
+	\input{tprop-background.tex}
+	\input{tprop-rrl.tex}
+	\input{tprop-methodology.tex}
+	\input{tprop-data-analysis.tex}
+	\input{tprop-appendix.tex}
+
+	\singlespacing\setlength{\parindent}{0pt}
+	\printbibliography
+\end{document}
+
+% vim: smartindent breakindent
