@@ -1,92 +1,56 @@
-\chapter{Review of Related Literature}\label{chap:rrl}
+\chapter{Methodology}\label{chap:methodology}
 
-While other countries have coffee as their perk-me-up drink of choice, China has
-tea for their case. This is evident with ready-to-drink (RTD) tea sales
-specially in the retail sector
-\autocite{international_coffee_council_coffee_2015}. The same holds true in a
-large part of the world, and will be so for a good period of time
-\autocite{CITEME}. In places where coffee holds dominance, it serves the same
-purpose as tea would: as a recreational drink and as something to keep one
-awake.
+I will attempt to answer these questions using Bourdieu's framework of
+\emph{Habitus}. Articles from People's Daily (English) have been gathered for
+this study. These articles will then be subject to content analysis, on the
+lookout for recurrent themes.
 
-% For the Chinese, tea fulfills that role, as used by Buddhist monks to keep
-% themselves awake during long meditation sessions
-% \autocite[268]{kieschnick_impact_2003}.  Another source of tea's solid
-% foundation in China is Lu Yu's classical work called Chajing (茶经),
-% translated as The Classic of Tea \autocite{lu_classic_1974}, describing tea's
-% history through the time of Lu Yu. Described also
-% is how tea and tea drinking spread throughout China
-% \autocite[266-267]{kieschnick_impact_2003}. The work describes how tea should
-% ideally be prepared, boiled, and served.
+Being a daily publication, newspapers provide a good form of coverage for small
+incidents and important events. A newspaper provides the role of an archival
+chronicle, keeping track of what was happening on a day to day basis
+\autocite{martin_examining_1996}. People's Daily was selected because of its
+wide circulation in China, enjoying significant readership and wide reach across
+the population. Public officials and ministers have chosen to release official
+statements through this outlet.
 
-Tea also appears in other texts, through its close connections with Buddhism.
-\textcite{kieschnick_impact_2003} details how tea came into regular use by monks
-as a drink to keep their concentration going during long meditation sessions. He
-also describes here tea's various appearances in legends and ancient writing
-such as \textcite{lu_classic_1974} on The Classic of Tea.
+In gathering articles, a simple search with the term "Starbucks" within the
+\href{http://en.people.cn}{People's Daily
+website}\footnote{\url{http://en.people.cn}} was performed, returning 81
+articles, the earliest of which date back to August 2007. A small Python script
+(see appendix \autoref{appdx:grab-link}) was written to programatically download
+all matching articles. While all news articles presented in the search results
+dating back from 2007 were downloaded for the dataset, analysis was
+intentionally limited to stories within January 2010 until May 2016. Refining
+further, stories that did not happen within China's borders are not included in
+the analysis. A complete archive of all downloaded articles and this paper
+itself are available in a \href{https://github.com/tsdmgz/sbux-rmrb}{GitHub
+repository}\footnote{\url{https://github.com/tsdmgz/sbux-rmrb}}. Sample articles
+that were included and excluded can be found in appendices
+\ref{appdx:news-articles-inc} and \ref{appdx:news-articles-ninc}.
 
-In analyzing coffee, \textcite{silva_characterization_2014} puts forward
-\emph{terroir}, a concept used in winemaking to analyze its quality and taste.
-Location, altitude, and soil type are variables in crop production and influence
-taste profile of a specific type of coffee bean. The study managed to
-efficiently determine differences with harvests among the locations sampled.
+\section{Analytical Framework}\label{sec:analyticf}
 
+% Data sources include statistical studies of coffee drinkers in China,
+% news articles from major outlets, and press releases from companies
+% themselves. Thematic analysis was applied, looking for themes with regard to
+% consumption patterns of patrons, location and placement of stores,
 
+\section{On the case of Starbucks}\label{sec:case-of-sbux}
 
-For health, \textcite{dharmananda_coffee_2003} analyzes coffee in the context of
-Traditional Chinese Medicine. The coffee plant and its relatives have
-historically been a source of medicinal herbs. Coffee in particular has an
-effect of regulating liver qi, giving the experience of ``a strong sense of
-mental and physical vitality''. \textcite{namba_historical_2001} recounts how
-coffee first arrived in Japan through translations of Dutch textbooks. They
-further study how the framework of how Chinese and Arabic traditional medicine
-dealt with and described the effects of coffee, mostly through caffeine and its
-effects on aging, infectious diseases, and heart processes.
+One may question, so why Starbucks? There are a number of competing coffee
+chains in China knowing that Starbucks was not the first of its kind in the
+Mainland.
 
-\textcite{su_impact_2006} studies the impact of western culture in Taiwan. Three
-studies were performed, correlating consumption patterns with the desirability
-of foreign culture and the ``adoring of foreign value in coffee consumption''.
-It was found that foreign brands were being perferred over local brands for tea
-and coffee. This lead to the conclusion that there was an adoration of western
-culture and influenced consumers' purchase decisions and drink preferences. A
-market research study by \textcite{euromonitor_international_coffee_2015}
-illustrates the growing coffee trend in Taiwan. Sales of instant coffee, Nestlé
-to be specific, dominate the market. In addition, a new format of coffee
-preparation was introduced to the market in the form of ``coffee pods'' through
-the brand ``Nespresso'', a division of Nestlé. However, there is a growing
-demand for fresh coffee beans driven by an increasing number of cafés opening up
-in Taiwan. Consumers have started to gain access to coffee making equipment,
-enabling them to prepare their own serving at home. Because of an increased
-demand of for fresh coffee, prices have risen due to consumers seeking better
-quality coffee. As a net effect, the rise of coffee has cannibalized tea sales
-and consumption, with consumers preferring ready-to-drink tea mixes while on the
-go.
+There is the popularity aspect. Yes, there are other coffee chains like
+Taiwanese-based UBC
+Coffee \autocite{CITEME}, and Costa Coffee from Hong Kong \autocite{CITEME}, but
+Starbucks is not known as yet another coffee chain, but it is rather known as a
+famous coffee chain. They are a place to be that sells coffee, rather than
+something that sells coffee that offers itself as a place to be.
 
-In China, \textcite{harrison_exporting_2005} describes Starbucks' initial foray
-into the international market, along with descriptions of its business model.
-For example, in an effort to stimulate consumption, Starbucks places several
-stores nearby other branches. \textcite{yang_consumer_2012} measured how much of
-a premium, consumers in Wuhan are willing to pay for coffee that is labelled as
-``Fair Trade''. It was found that consumers were willing to pay as much as 22\%
-more on average than traditional coffee. While not mentioned in the study,
-Starbucks promotes its products as fair trade goods.
+% how commercial coffee first got to china?
+% the cafe culture is a new idea to them (how do you say that?)
+% why newspaper? because it is one of the record of events (possibly canonical)
+% of a society
 
-\textcite{watson_golden_2006} presents an ethnographic case study of the fast
-food chain McDonald's across five cities: Beijing, Hong Kong, Seoul, Taipei, and
-Osaka. The study describe locals' perception of McDonald's in each of these
-cities. These perceptions range from being a window to the world outside of
-China in the case of Beijing, to being a political act and a reflection of
-attitude on the subject of reuinifcation in Taiwan, and to the eventual
-integration of everyday culture in Japan.
-
-\textcite{zhang_coffee_2014} argues that coffee drinking in China is more of a
-trend than a habit. Most of its consumers are of a younger and more affluent
-demographic. Drinkers are found to be concentrated among major cities like
-Beijing, Shanghai, and Guangzhou.
-\textcite{international_coffee_council_coffee_2015} notes that there are no
-clear statistics on China's coffee drinkers, but consumption can be estimated by
-import and export volumes. Coffee imports are noted to be mostly in unprocessed
-and non-roasted form. While Yunnan（云南）is an area known for tea, coffee
-production is rising.
-
-% vim: textwidth=80 smartindent breakindent
+% vim: textwidth=80 smartindent breakindent syntax=tex
